@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:tuff",
+    "minecraft:andesite",
+    "minecraft:air",
+    "minebound:moonrock",
+    "minebound:moon_dust"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "minebound:blocks/sb_water_still",
+    "particle": "minebound:blocks/sb_water_still"
+  },
+  "render_type": "translucent"
+}
