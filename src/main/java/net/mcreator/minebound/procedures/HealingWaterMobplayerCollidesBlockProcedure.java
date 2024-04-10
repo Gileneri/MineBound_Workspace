@@ -18,7 +18,7 @@ public class HealingWaterMobplayerCollidesBlockProcedure {
 			if (entity instanceof LivingEntity _entity)
 				_entity.removeEffect(MineboundModMobEffects.BURNING.get());
 			if (entity instanceof LivingEntity _livEnt ? _livEnt.hasEffect(MineboundModMobEffects.REGENERATION_1.get()) : false) {
-				if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MineboundModMobEffects.REGENERATION_1.get()) ? _livEnt.getEffect(MineboundModMobEffects.REGENERATION_1.get()).getDuration() : 0) < 80) {
+				if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MineboundModMobEffects.REGENERATION_1.get()) ? _livEnt.getEffect(MineboundModMobEffects.REGENERATION_1.get()).getDuration() : 0) < 5) {
 					if (entity instanceof LivingEntity _entity)
 						_entity.addEffect(new MobEffectInstance(MineboundModMobEffects.REGENERATION_1.get(), 100, 0, (true), (true)));
 				}

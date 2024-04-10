@@ -24,11 +24,7 @@ public class WetOnEffectActiveTickProcedure {
 			if (!(entity instanceof LivingEntity _livEnt ? _livEnt.getMobType() == MobType.WATER : false)) {
 				if (!entity.isInWaterOrBubble() && !((world.getFluidState(new BlockPos(x, y, z)).createLegacyBlock()).getBlock() == MineboundModBlocks.HEALING_WATER.get()
 						&& (world.getFluidState(new BlockPos(x, y, z)).createLegacyBlock()).getBlock() == MineboundModBlocks.SWAMP_WATER.get())) {
-					if (entity.getDeltaMovement().y() > 0) {
-						entity.setDeltaMovement(new Vec3((entity.getDeltaMovement().x() * 0.11), (entity.getDeltaMovement().y() * 0.11), (entity.getDeltaMovement().z() * 0.11)));
-					} else {
-						entity.setDeltaMovement(new Vec3((entity.getDeltaMovement().x() * 0.11), (entity.getDeltaMovement().y()), (entity.getDeltaMovement().z() * 0.11)));
-					}
+					entity.setDeltaMovement(new Vec3((entity.getDeltaMovement().x() * 0.9), (entity.getDeltaMovement().y()), (entity.getDeltaMovement().z() * 0.9)));
 				}
 				if (!(new Object() {
 					public boolean checkGamemode(Entity _ent) {

@@ -218,7 +218,6 @@ import net.mcreator.minebound.block.IcematerialBlock;
 import net.mcreator.minebound.block.IceblockBlock;
 import net.mcreator.minebound.block.HiveblockBlock;
 import net.mcreator.minebound.block.HitechBlockBlock;
-import net.mcreator.minebound.block.HigherPortalBlock;
 import net.mcreator.minebound.block.HeavyStoneBricksStairsBlock;
 import net.mcreator.minebound.block.HeavyStoneBricksSlabBlock;
 import net.mcreator.minebound.block.HeavyStoneBricksBlock;
@@ -312,7 +311,6 @@ import net.mcreator.minebound.MineboundMod;
 
 public class MineboundModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, MineboundMod.MODID);
-	public static final RegistryObject<Block> HIGHER_PORTAL = REGISTRY.register("higher_portal", () -> new HigherPortalBlock());
 	public static final RegistryObject<Block> POISON = REGISTRY.register("poison", () -> new PoisonBlock());
 	public static final RegistryObject<Block> ORBITAL_PORTAL = REGISTRY.register("orbital_portal", () -> new OrbitalPortalBlock());
 	public static final RegistryObject<Block> TEST_BUTTON = REGISTRY.register("test_button", () -> new TestButtonBlock());

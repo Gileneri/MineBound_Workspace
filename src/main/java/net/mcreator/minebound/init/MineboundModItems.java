@@ -36,7 +36,6 @@ import net.mcreator.minebound.item.OrbitalItem;
 import net.mcreator.minebound.item.MattermanipulatorbetaItem;
 import net.mcreator.minebound.item.IronOreItem;
 import net.mcreator.minebound.item.IronBarItem;
-import net.mcreator.minebound.item.HigherItem;
 import net.mcreator.minebound.item.GoldOreItem;
 import net.mcreator.minebound.item.GoldBarItem;
 import net.mcreator.minebound.item.FeroziumOreItem;
@@ -53,7 +52,6 @@ import net.mcreator.minebound.MineboundMod;
 
 public class MineboundModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, MineboundMod.MODID);
-	public static final RegistryObject<Item> HIGHER = REGISTRY.register("higher", () -> new HigherItem());
 	public static final RegistryObject<Item> MATTERMANIPULATORBETA = REGISTRY.register("mattermanipulatorbeta", () -> new MattermanipulatorbetaItem());
 	public static final RegistryObject<Item> DEBUG_TEST_TOOL = REGISTRY.register("debug_test_tool", () -> new DebugTestToolItem());
 	public static final RegistryObject<Item> MECH_TEST_BODY_SPAWN_EGG = REGISTRY.register("mech_test_body_spawn_egg", () -> new ForgeSpawnEggItem(MineboundModEntities.MECH_TEST_BODY, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));

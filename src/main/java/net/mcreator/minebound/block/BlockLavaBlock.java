@@ -37,7 +37,7 @@ public class BlockLavaBlock extends Block {
 		super(BlockBehaviour.Properties
 				.of(Material.LAVA, MaterialColor.WOOL).sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:silence")), () -> new SoundEvent(new ResourceLocation("minebound:silence")),
 						() -> new SoundEvent(new ResourceLocation("minebound:silence")), () -> new SoundEvent(new ResourceLocation("minebound:silence")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
-				.strength(0f, 100f).lightLevel(s -> 8).noCollission());
+				.strength(0f, 100f).lightLevel(s -> 15).noCollission());
 	}
 
 	@Override

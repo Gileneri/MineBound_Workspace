@@ -32,7 +32,7 @@ public class EntityOnContactWithWaterProcedure {
 		if (entity == null)
 			return;
 		if (!world.isClientSide()) {
-			if (entity.isInWaterRainOrBubble() && !((ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("minebound:higher"))) == (entity.level.dimension()))) {
+			if (entity.isInWaterRainOrBubble() && !((ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("minebound:toxic"))) == (entity.level.dimension()))) {
 				if (entity instanceof LivingEntity _entity)
 					_entity.addEffect(new MobEffectInstance(MineboundModMobEffects.WET.get(), 85, 0, (false), (false)));
 			}

@@ -17,7 +17,7 @@ import net.mcreator.minebound.init.MineboundModFluids;
 
 public class LavaBlock extends LiquidBlock {
 	public LavaBlock() {
-		super(() -> MineboundModFluids.LAVA.get(), BlockBehaviour.Properties.of(Material.LAVA, MaterialColor.COLOR_RED).strength(1000f).lightLevel(s -> 8).noCollission().noLootTable());
+		super(() -> MineboundModFluids.LAVA.get(), BlockBehaviour.Properties.of(Material.LAVA, MaterialColor.COLOR_RED).strength(1000f).lightLevel(s -> 15).noCollission().noLootTable());
 	}
 
 	@Override

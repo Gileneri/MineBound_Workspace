@@ -123,13 +123,32 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
-    "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "onNeighbourBlockChanges": {
+      "name": "MineboundGravity"
+    },
+    "onBlockPlayedBy": {
+      "name": "MineboundGravity"
+    },
+    "spawnWorldTypes": [
+      "CUSTOM:Toxic"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:ToxicOcean"
+      }
+    ],
+    "blocksToReplace": [
+      {
+        "value": "CUSTOM:Mud"
+      },
+      {
+        "value": "CUSTOM:Dirtmaterial"
+      }
+    ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "frequencyPerChunks": 15,
+    "frequencyOnChunk": 20,
+    "minGenerateHeight": -16,
+    "maxGenerateHeight": 190
   }
 }

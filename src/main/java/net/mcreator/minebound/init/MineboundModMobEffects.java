@@ -21,13 +21,18 @@ import net.mcreator.minebound.potion.Regeneration1MobEffect;
 import net.mcreator.minebound.potion.PoisonedMobEffect;
 import net.mcreator.minebound.potion.MeltingLavaMobEffect;
 import net.mcreator.minebound.potion.HungryMobEffect;
+import net.mcreator.minebound.potion.HealingMobEffect;
 import net.mcreator.minebound.potion.FullBellyMobEffect;
 import net.mcreator.minebound.potion.FrostMobEffect;
 import net.mcreator.minebound.potion.FoodPoisoningMobEffect;
+import net.mcreator.minebound.potion.ElectrifiedMobEffect;
+import net.mcreator.minebound.potion.DoomedMobEffect;
 import net.mcreator.minebound.potion.DeadlyradiationMobEffect;
 import net.mcreator.minebound.potion.DeadlyHeatMobEffect;
 import net.mcreator.minebound.potion.DeadlyChillMobEffect;
 import net.mcreator.minebound.potion.BurningMobEffect;
+import net.mcreator.minebound.potion.BonusHealthMobEffect;
+import net.mcreator.minebound.potion.BonusEnergyMobEffect;
 import net.mcreator.minebound.MineboundMod;
 
 public class MineboundModMobEffects {
@@ -50,4 +55,9 @@ public class MineboundModMobEffects {
 	public static final RegistryObject<MobEffect> TAR_EFFECT = REGISTRY.register("tar_effect", () -> new TarEffectMobEffect());
 	public static final RegistryObject<MobEffect> MELTING_LAVA = REGISTRY.register("melting_lava", () -> new MeltingLavaMobEffect());
 	public static final RegistryObject<MobEffect> REGENERATION_1 = REGISTRY.register("regeneration_1", () -> new Regeneration1MobEffect());
+	public static final RegistryObject<MobEffect> ELECTRIFIED = REGISTRY.register("electrified", () -> new ElectrifiedMobEffect());
+	public static final RegistryObject<MobEffect> DOOMED = REGISTRY.register("doomed", () -> new DoomedMobEffect());
+	public static final RegistryObject<MobEffect> HEALING = REGISTRY.register("healing", () -> new HealingMobEffect());
+	public static final RegistryObject<MobEffect> BONUS_ENERGY = REGISTRY.register("bonus_energy", () -> new BonusEnergyMobEffect());
+	public static final RegistryObject<MobEffect> BONUS_HEALTH = REGISTRY.register("bonus_health", () -> new BonusHealthMobEffect());
 }

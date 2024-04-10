@@ -41,7 +41,7 @@ public class OniradiatedBiomeProcedure {
 		if (entity == null)
 			return;
 		if (!world.isClientSide()) {
-			if ((ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("minebound:higher"))) == (entity.level.dimension())
+			if ((ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("minebound:toxic"))) == (entity.level.dimension())
 					&& !((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY).getItem() == Items.IRON_LEGGINGS)) {
 				if ((new Object() {
 					public boolean checkGamemode(Entity _ent) {

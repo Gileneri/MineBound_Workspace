@@ -20,6 +20,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.minebound.procedures.DebugTestToolToolInHandTickProcedure;
+import net.mcreator.minebound.procedures.DebugTestToolLivingEntityIsHitWithToolProcedure;
 import net.mcreator.minebound.procedures.DebugTestToolEntitySwingsItemProcedure;
 
 import java.util.List;
@@ -46,6 +47,7 @@ public class DebugTestToolItem extends Item {
 	@Override
 	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 		itemstack.hurtAndBreak(2, entity, i -> i.broadcastBreakEvent(EquipmentSlot.MAINHAND));
+		DebugTestToolLivingEntityIsHitWithToolProcedure.execute(entity, sourceentity);
 		return true;
 	}
 

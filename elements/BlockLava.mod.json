@@ -102,7 +102,7 @@
     "stepSound": {
       "value": "CUSTOM:silence"
     },
-    "luminance": 8,
+    "luminance": 15,
     "unbreakable": false,
     "breakHarvestLevel": 1,
     "isBonemealable": false,

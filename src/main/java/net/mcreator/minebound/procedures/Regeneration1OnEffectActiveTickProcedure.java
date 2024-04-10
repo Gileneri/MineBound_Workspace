@@ -2,7 +2,6 @@ package net.mcreator.minebound.procedures;
 
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.world.effect.MobEffects;
 
 import net.mcreator.minebound.init.MineboundModMobEffects;
 
@@ -14,7 +13,7 @@ public class Regeneration1OnEffectActiveTickProcedure {
 		double howLongToWait = 0;
 		if (entity.isAlive()) {
 			if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MineboundModMobEffects.REGENERATION_1.get()) ? _livEnt.getEffect(MineboundModMobEffects.REGENERATION_1.get()).getAmplifier() : 0) >= 4) {
-				howLongToWait = (10 - (entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MobEffects.REGENERATION) ? _livEnt.getEffect(MobEffects.REGENERATION).getAmplifier() : 0)) * 20;
+				howLongToWait = (10 - (entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MineboundModMobEffects.REGENERATION_1.get()) ? _livEnt.getEffect(MineboundModMobEffects.REGENERATION_1.get()).getAmplifier() : 0)) * 20;
 			} else if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MineboundModMobEffects.REGENERATION_1.get()) ? _livEnt.getEffect(MineboundModMobEffects.REGENERATION_1.get()).getAmplifier() : 0) == 3) {
 				howLongToWait = 9;
 			} else if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MineboundModMobEffects.REGENERATION_1.get()) ? _livEnt.getEffect(MineboundModMobEffects.REGENERATION_1.get()).getAmplifier() : 0) == 2) {
@@ -26,7 +25,7 @@ public class Regeneration1OnEffectActiveTickProcedure {
 			}
 			if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MineboundModMobEffects.REGENERATION_1.get()) ? _livEnt.getEffect(MineboundModMobEffects.REGENERATION_1.get()).getDuration() : 0) % howLongToWait == 0) {
 				if (entity instanceof LivingEntity _entity)
-					_entity.setHealth((float) ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) + (entity instanceof LivingEntity _livEnt ? _livEnt.getMaxHealth() : -1) / 200));
+					_entity.setHealth((float) ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) + (entity instanceof LivingEntity _livEnt ? _livEnt.getMaxHealth() : -1) * 0.1));
 			}
 		}
 	}

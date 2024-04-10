@@ -123,13 +123,23 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
-    "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "spawnWorldTypes": [
+      "CUSTOM:Toxic"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:ToxicOcean"
+      }
+    ],
+    "blocksToReplace": [
+      {
+        "value": "CUSTOM:Mud"
+      }
+    ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "frequencyOnChunk": 10,
+    "minGenerateHeight": 180,
+    "maxGenerateHeight": 200
   }
 }
