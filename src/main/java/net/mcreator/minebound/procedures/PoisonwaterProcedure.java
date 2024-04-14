@@ -42,7 +42,7 @@ public class PoisonwaterProcedure {
 		if (entity == null)
 			return;
 		if (!world.isClientSide()) {
-			if ((ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("minebound:toxic"))) == (entity.level.dimension())
+			if ((ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("minebound:toxicoceanplanet"))) == (entity.level.dimension())
 					&& !((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getItem() == Items.LEATHER_CHESTPLATE)) {
 				if (entity instanceof PathfinderMob && !entity.getType().is(TagKey.create(Registry.ENTITY_TYPE_REGISTRY, new ResourceLocation("minebound:poison_creature"))) || new Object() {
 					public boolean checkGamemode(Entity _ent) {

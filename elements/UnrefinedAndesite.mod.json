@@ -124,9 +124,13 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "spawnWorldTypes": [
-      "CUSTOM:Toxic"
+      "CUSTOM:Toxicoceanplanet"
     ],
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:ToxicOcean"
+      }
+    ],
     "blocksToReplace": [
       {
         "value": "CUSTOM:Mud"

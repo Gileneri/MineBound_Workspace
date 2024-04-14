@@ -446,7 +446,6 @@
   "block.test.blueglowrock": "Blue Glow Rock",
   "entity.test.tentacle_ghost_mob": "Tentacle Ghost",
   "block.minebound.blackglass": "Black Glass",
-  "item.minebound.toxic": "Higher Portal Igniter",
   "item.minebound.tentacle_gnat_mob_spawn_egg": "Tentacle Gnat Spawn Egg",
   "item.minebound.liquid_erchius_fuel_bucket": "Liquid Erchius Fuel ",
   "block.test.icematerial": "Ice ",
@@ -811,7 +810,7 @@
   "item.minebound.bulbop_mob_spawn_egg": "Bulbop Spawn Egg",
   "block.minebound.copper_gear_block": "Copper Gear Block",
   "entity.test.cosmostache_mob": "Cosmostache",
-  "biome.minebound.toxic_ocean": "Oceantrent",
+  "biome.minebound.toxic_ocean": "toxic ocean",
   "item.minebound.mandraflora_mob_spawn_egg": "Mandraflora Spawn Egg",
   "item.test.pyromantle_mob_spawn_egg": "Pyromantle Spawn Egg",
   "entity.minebound.cosmostache_mob": "Cosmostache",
@@ -1034,5 +1033,6 @@
   "item.minebound.titanium_ore": "Titanium Ore",
   "item.minebound.gosmet_mob_spawn_egg": "Gosmet Spawn Egg",
   "entity.minebound.scandroid_mob_charging": "Scandroid",
+  "item.minebound.toxicoceanplanet": "Toxicoceanplanet Portal Igniter",
   "block.minebound.wooden_fence_cross": "Wooden Fence Cross"
 }

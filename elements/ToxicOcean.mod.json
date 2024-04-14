@@ -2,7 +2,7 @@
   "_fv": 39,
   "_type": "biome",
   "definition": {
-    "name": "Oceantrent",
+    "name": "toxic ocean",
     "groundBlock": {
       "value": "CUSTOM:Mud"
     },

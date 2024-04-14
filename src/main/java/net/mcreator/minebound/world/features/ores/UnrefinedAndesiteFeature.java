@@ -41,7 +41,7 @@ public class UnrefinedAndesiteFeature extends OreFeature {
 		return FEATURE;
 	}
 
-	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("minebound:toxic")));
+	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("minebound:toxicoceanplanet")));
 
 	public UnrefinedAndesiteFeature() {
 		super(OreConfiguration.CODEC);

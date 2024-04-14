@@ -130,7 +130,7 @@
       "name": "MineboundGravity"
     },
     "spawnWorldTypes": [
-      "CUSTOM:Toxic"
+      "CUSTOM:Toxicoceanplanet"
     ],
     "restrictionBiomes": [
       {

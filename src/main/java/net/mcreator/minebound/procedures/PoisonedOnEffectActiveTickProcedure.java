@@ -26,11 +26,11 @@ public class PoisonedOnEffectActiveTickProcedure {
 					if (entity instanceof LivingEntity _entity)
 						_entity.hurt(new DamageSource("poisoned").bypassArmor(), 1);
 				}
-				if ((ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("minebound:toxic"))) == (entity.level.dimension())
+				if ((ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("minebound:toxicoceanplanet"))) == (entity.level.dimension())
 						&& !(entity.isInWaterOrBubble() || (world.getFluidState(new BlockPos(x, y, z)).createLegacyBlock()).getBlock() == MineboundModBlocks.POISON.get())) {
 					if (world instanceof ServerLevel _level)
 						_level.sendParticles((SimpleParticleType) (MineboundModParticleTypes.POISON_DRIP.get()), x, y, z, 1, 0.2, 0.8, 0.2, 1);
-				} else if (!((ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("minebound:toxic"))) == (entity.level.dimension()))
+				} else if (!((ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("minebound:toxicoceanplanet"))) == (entity.level.dimension()))
 						&& !((world.getFluidState(new BlockPos(x, y, z)).createLegacyBlock()).getBlock() == MineboundModBlocks.POISON.get())) {
 					if (world instanceof ServerLevel _level)
 						_level.sendParticles((SimpleParticleType) (MineboundModParticleTypes.POISON_DRIP.get()), x, y, z, 1, 0.2, 0.8, 0.2, 1);
