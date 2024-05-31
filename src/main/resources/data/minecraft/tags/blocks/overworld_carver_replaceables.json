@@ -4,6 +4,9 @@
     "minecraft:air",
     "minebound:moonrock",
     "minebound:moon_dust",
-    "minebound:mud"
+    "minebound:mud",
+    "minebound:sand",
+    "minebound:obsidian",
+    "minebound:icematerial"
   ]
 }

@@ -130,13 +130,23 @@
     "onBlockPlayedBy": {
       "name": "MineboundGravity"
     },
-    "spawnWorldTypes": [],
-    "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "spawnWorldTypes": [
+      "CUSTOM:LavaPlanet"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Magmaocean"
+      }
+    ],
+    "blocksToReplace": [
+      {
+        "value": "CUSTOM:Obsidian"
+      }
+    ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "frequencyPerChunks": 4,
+    "frequencyOnChunk": 64,
+    "minGenerateHeight": -16,
+    "maxGenerateHeight": 220
   }
 }

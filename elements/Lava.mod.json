@@ -4,8 +4,8 @@
   "definition": {
     "name": "Lava",
     "bucketName": "Core Lava Bucket",
-    "textureStill": "lava",
-    "textureFlowing": "lava",
+    "textureStill": "lava_still_texture_fix",
+    "textureFlowing": "lava_flowing_texture",
     "tintType": "No tint",
     "canMultiply": true,
     "flowRate": 5,
@@ -13,7 +13,7 @@
     "slopeFindDistance": 4,
     "spawnParticles": true,
     "dripParticle": {
-      "value": "CUSTOM:DrippingOil"
+      "value": "DRIP_LAVA"
     },
     "flowStrength": 0.0,
     "luminosity": 15,

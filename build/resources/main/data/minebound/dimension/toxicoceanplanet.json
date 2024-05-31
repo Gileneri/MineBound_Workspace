@@ -22,7 +22,7 @@
     },
     "settings": {
       "name": "minebound:toxicoceanplanet",
-      "sea_level": 182,
+      "sea_level": 198,
       "legacy_random_source": false,
       "disable_mob_generation": true,
       "noodle_caves_enabled": false,

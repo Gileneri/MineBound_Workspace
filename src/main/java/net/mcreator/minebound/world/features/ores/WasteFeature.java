@@ -36,9 +36,9 @@ public class WasteFeature extends OreFeature {
 		FEATURE = new WasteFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("minebound:waste", FEATURE,
 				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(MineboundModBlocks.MUD.get().defaultBlockState()), MineboundModBlocks.WASTE.get().defaultBlockState()),
-						OreConfiguration.target(new BlockStateMatchTest(MineboundModBlocks.DIRTMATERIAL.get().defaultBlockState()), MineboundModBlocks.WASTE.get().defaultBlockState())), 20));
+						OreConfiguration.target(new BlockStateMatchTest(MineboundModBlocks.DIRTMATERIAL.get().defaultBlockState()), MineboundModBlocks.WASTE.get().defaultBlockState())), 32));
 		PLACED_FEATURE = PlacementUtils.register("minebound:waste", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(15), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(-16), VerticalAnchor.absolute(190)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(4), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(30), VerticalAnchor.absolute(220)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 

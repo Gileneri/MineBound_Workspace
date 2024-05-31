@@ -11,9 +11,12 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.biome.Biome;
 
 import net.mcreator.minebound.world.biome.ToxicOceanBiome;
+import net.mcreator.minebound.world.biome.OceanBiome;
 import net.mcreator.minebound.world.biome.NoSnowHighUpBiomeBiome;
 import net.mcreator.minebound.world.biome.MoonBiomeBiome;
+import net.mcreator.minebound.world.biome.MagmaoceanBiome;
 import net.mcreator.minebound.world.biome.EmptyspaceBiome;
+import net.mcreator.minebound.world.biome.ArticoceanBiome;
 import net.mcreator.minebound.MineboundMod;
 
 public class MineboundModBiomes {
@@ -22,4 +25,7 @@ public class MineboundModBiomes {
 	public static final RegistryObject<Biome> NO_SNOW_HIGH_UP_BIOME = REGISTRY.register("no_snow_high_up_biome", NoSnowHighUpBiomeBiome::createBiome);
 	public static final RegistryObject<Biome> MOON_BIOME = REGISTRY.register("moon_biome", MoonBiomeBiome::createBiome);
 	public static final RegistryObject<Biome> TOXIC_OCEAN = REGISTRY.register("toxic_ocean", ToxicOceanBiome::createBiome);
+	public static final RegistryObject<Biome> OCEAN = REGISTRY.register("ocean", OceanBiome::createBiome);
+	public static final RegistryObject<Biome> MAGMAOCEAN = REGISTRY.register("magmaocean", MagmaoceanBiome::createBiome);
+	public static final RegistryObject<Biome> ARTICOCEAN = REGISTRY.register("articocean", ArticoceanBiome::createBiome);
 }

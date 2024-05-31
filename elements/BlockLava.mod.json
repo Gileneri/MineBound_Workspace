@@ -2,7 +2,7 @@
   "_fv": 39,
   "_type": "block",
   "definition": {
-    "texture": "lava",
+    "texture": "lava_still_texture_fix",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",

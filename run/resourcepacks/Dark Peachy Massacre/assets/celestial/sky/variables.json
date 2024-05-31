@@ -10,11 +10,11 @@
 		},
 		{
 			"name": "skyDarknessHigher",
-			"value": "((((#yPos) - 60)M(0)) / 1100)m(1)"
+			"value": "((((#yPos) - 384)M(0)) / 16)m(1)"
 		},
 		{
 			"name": "skyDarknessLower",
-			"value": "((((#yPos) - 800)M(0)) / 30)m(1)"
+			"value": "((((#yPos) - 384)M(0)) / 16)m(1)"
 		},
 		{
 			"name" : "atmosphere",
@@ -29,8 +29,16 @@
 			"value": "((((#yPos) - 512)M(0)) / 16)m(1)"
 		},
 		{
+			"name": "outAtmhigher",
+			"value": "((((#yPos) - 624)M(0)) / 16)m(1)"
+		},
+		{
 			"name": "rainSun",
 			"value": "((1 - #skyDarknessHigher) * (#rainGradient))"
+		},
+		{
+			"name" : "oceanatmosphere",
+			"value" : "((((#yPos) - 316)M(0)) / 16)m(1)"
 		},
 		{
 			"name": "uvStartX",

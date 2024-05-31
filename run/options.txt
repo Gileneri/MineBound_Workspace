@@ -26,11 +26,11 @@ screenEffectScale:1.0
 fovEffectScale:1.0
 darknessEffectScale:1.0
 gamma:0.5
-renderDistance:12
+renderDistance:15
 simulationDistance:12
 entityDistanceScaling:1.0
 guiScale:0
-particles:1
+particles:0
 maxFps:260
 graphicsMode:1
 ao:2

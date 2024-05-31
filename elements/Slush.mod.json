@@ -128,13 +128,23 @@
     "onBlockPlayedBy": {
       "name": "MineboundGravity"
     },
-    "spawnWorldTypes": [],
-    "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "spawnWorldTypes": [
+      "CUSTOM:Articplanet"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Articocean"
+      }
+    ],
+    "blocksToReplace": [
+      {
+        "value": "CUSTOM:Icematerial"
+      }
+    ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "frequencyPerChunks": 32,
+    "frequencyOnChunk": 32,
+    "minGenerateHeight": -16,
+    "maxGenerateHeight": 220
   }
 }

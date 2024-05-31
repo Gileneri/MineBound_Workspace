@@ -7,10 +7,9 @@ import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.LiquidBlock;
-import net.minecraft.core.particles.SimpleParticleType;
+import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.particles.ParticleOptions;
 
-import net.mcreator.minebound.init.MineboundModParticleTypes;
 import net.mcreator.minebound.init.MineboundModFluids;
 import net.mcreator.minebound.init.MineboundModFluidTypes;
 import net.mcreator.minebound.init.MineboundModBlocks;
@@ -25,7 +24,7 @@ public abstract class LavaFluid extends ForgeFlowingFluid {
 
 	@Override
 	public ParticleOptions getDripParticle() {
-		return (SimpleParticleType) (MineboundModParticleTypes.DRIPPING_OIL.get());
+		return ParticleTypes.DRIPPING_LAVA;
 	}
 
 	public static class Source extends LavaFluid {

@@ -122,13 +122,23 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
-    "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "spawnWorldTypes": [
+      "CUSTOM:OceanicPlanet"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Ocean"
+      }
+    ],
+    "blocksToReplace": [
+      {
+        "value": "CUSTOM:Sand"
+      }
+    ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "frequencyPerChunks": 8,
+    "frequencyOnChunk": 48,
+    "minGenerateHeight": -16,
+    "maxGenerateHeight": 220
   }
 }

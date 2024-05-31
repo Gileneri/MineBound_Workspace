@@ -20,7 +20,7 @@ public class LavaFluidType extends FluidType {
 	@Override
 	public void initializeClient(Consumer<IClientFluidTypeExtensions> consumer) {
 		consumer.accept(new IClientFluidTypeExtensions() {
-			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("minebound:blocks/lava"), FLOWING_TEXTURE = new ResourceLocation("minebound:blocks/lava");
+			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("minebound:blocks/lava_still_texture_fix"), FLOWING_TEXTURE = new ResourceLocation("minebound:blocks/lava_flowing_texture");
 
 			@Override
 			public ResourceLocation getStillTexture() {
