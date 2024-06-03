@@ -37,11 +37,11 @@ public class DirtmaterialFeature extends OreFeature {
 		CONFIGURED_FEATURE = FeatureUtils.register("minebound:dirtmaterial", FEATURE,
 				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(MineboundModBlocks.MUD.get().defaultBlockState()), MineboundModBlocks.DIRTMATERIAL.get().defaultBlockState())), 20));
 		PLACED_FEATURE = PlacementUtils.register("minebound:dirtmaterial", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(5), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(170), VerticalAnchor.absolute(200)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(5), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(180), VerticalAnchor.absolute(220)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
-	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("minebound:toxic")));
+	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("minebound:toxicoceanplanet")));
 
 	public DirtmaterialFeature() {
 		super(OreConfiguration.CODEC);

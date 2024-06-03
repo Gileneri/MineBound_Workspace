@@ -1,6 +1,9 @@
 {
 	"dimensions": [
-		"higher",
-		"moon_dimension"
+		"toxicoceanplanet",
+		"moon_dimension",
+		"oceanic_planet",
+		"lava_planet",
+		"articplanet"
 	]
 }

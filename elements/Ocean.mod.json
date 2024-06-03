@@ -4,13 +4,33 @@
   "definition": {
     "name": "Ocean",
     "groundBlock": {
-      "value": "Blocks.SAND#0"
+      "value": "CUSTOM:Sand"
     },
     "undergroundBlock": {
-      "value": "Blocks.COBBLESTONE"
+      "value": "CUSTOM:Sand"
     },
     "underwaterBlock": {
-      "value": "Blocks.SAND#0"
+      "value": "CUSTOM:Sand"
+    },
+    "airColor": {
+      "value": -8397577,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -12278228,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -12278228,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -15042897,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -15037229,
+      "falpha": 0.0
     },
     "ambientSound": {
       "value": ""
@@ -27,11 +47,11 @@
     "moodSoundDelay": 6000,
     "spawnParticles": false,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "CUSTOM:DripingWet"
     },
     "particlesProbability": 0.5,
-    "rainingPossibility": 0.0,
-    "temperature": 2.0,
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
     "spawnBiome": false,
     "spawnInCaves": false,
     "spawnBiomeNether": false,
@@ -48,8 +68,8 @@
       "max": 1.0
     },
     "genErosion": {
-      "min": 0.9999,
-      "max": 0.9999
+      "min": -0.5,
+      "max": 0.5
     },
     "genWeirdness": {
       "min": -1.0,
@@ -67,7 +87,7 @@
     "treesPerChunk": 0,
     "vanillaTreeType": "Default",
     "treeType": 0,
-    "minHeight": 7,
+    "minHeight": 0,
     "treeStem": {
       "value": ""
     },
@@ -100,11 +120,7 @@
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",
-    "defaultFeatures": [
-      "Caves",
-      "Ores",
-      "FrozenTopLayer"
-    ],
+    "defaultFeatures": [],
     "spawnEntries": []
   }
 }

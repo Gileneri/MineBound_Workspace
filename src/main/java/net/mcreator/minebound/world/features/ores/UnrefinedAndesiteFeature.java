@@ -35,13 +35,13 @@ public class UnrefinedAndesiteFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new UnrefinedAndesiteFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("minebound:unrefined_andesite", FEATURE,
-				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(MineboundModBlocks.MUD.get().defaultBlockState()), MineboundModBlocks.UNREFINED_ANDESITE.get().defaultBlockState())), 22));
+				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(MineboundModBlocks.MUD.get().defaultBlockState()), MineboundModBlocks.UNREFINED_ANDESITE.get().defaultBlockState())), 64));
 		PLACED_FEATURE = PlacementUtils.register("minebound:unrefined_andesite", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(12), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(-16), VerticalAnchor.absolute(100)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(4), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(-16), VerticalAnchor.absolute(100)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
-	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("minebound:toxic")));
+	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("minebound:toxicoceanplanet")));
 
 	public UnrefinedAndesiteFeature() {
 		super(OreConfiguration.CODEC);

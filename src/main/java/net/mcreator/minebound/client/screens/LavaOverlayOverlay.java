@@ -46,7 +46,7 @@ public class LavaOverlayOverlay {
 		RenderSystem.blendFuncSeparate(GlStateManager.SourceFactor.SRC_ALPHA, GlStateManager.DestFactor.ONE_MINUS_SRC_ALPHA, GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ZERO);
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		if (LavaOverlayDisplayOverlayIngameProcedure.execute(world, x, z, entity)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("minebound:textures/screens/lavatex.png"));
+			RenderSystem.setShaderTexture(0, new ResourceLocation("minebound:textures/screens/lava_screen.png"));
 			Minecraft.getInstance().gui.blit(event.getPoseStack(), 0, 0, 0, 0, w, h, w, h);
 		}
 		RenderSystem.depthMask(true);
