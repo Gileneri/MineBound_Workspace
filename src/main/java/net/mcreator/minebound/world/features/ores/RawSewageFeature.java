@@ -35,13 +35,13 @@ public class RawSewageFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new RawSewageFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("minebound:raw_sewage", FEATURE,
-				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(MineboundModBlocks.MUD.get().defaultBlockState()), MineboundModBlocks.RAW_SEWAGE.get().defaultBlockState())), 10));
+				new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(MineboundModBlocks.MUD.get().defaultBlockState()), MineboundModBlocks.RAW_SEWAGE.get().defaultBlockState())), 16));
 		PLACED_FEATURE = PlacementUtils.register("minebound:raw_sewage", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(10), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(180), VerticalAnchor.absolute(200)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(3), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(180), VerticalAnchor.absolute(220)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
-	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("minebound:toxic")));
+	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("minebound:toxicoceanplanet")));
 
 	public RawSewageFeature() {
 		super(OreConfiguration.CODEC);

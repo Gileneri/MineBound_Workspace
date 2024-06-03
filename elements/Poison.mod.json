@@ -4,8 +4,8 @@
   "definition": {
     "name": "Poison",
     "bucketName": "Poison",
-    "textureStill": "poison_still",
-    "textureFlowing": "poison_flow",
+    "textureStill": "sb_poison_still",
+    "textureFlowing": "sb_poison_flow",
     "tintType": "No tint",
     "canMultiply": false,
     "flowRate": 5,

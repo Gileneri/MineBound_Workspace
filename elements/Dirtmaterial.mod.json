@@ -125,9 +125,13 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "spawnWorldTypes": [
-      "CUSTOM:Toxic"
+      "CUSTOM:Toxicoceanplanet"
     ],
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:ToxicOcean"
+      }
+    ],
     "blocksToReplace": [
       {
         "value": "CUSTOM:Mud"
@@ -136,7 +140,7 @@
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 5,
     "frequencyOnChunk": 20,
-    "minGenerateHeight": 170,
-    "maxGenerateHeight": 200
+    "minGenerateHeight": 180,
+    "maxGenerateHeight": 220
   }
 }

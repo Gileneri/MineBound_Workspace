@@ -20,7 +20,7 @@ public class PoisonFluidType extends FluidType {
 	@Override
 	public void initializeClient(Consumer<IClientFluidTypeExtensions> consumer) {
 		consumer.accept(new IClientFluidTypeExtensions() {
-			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("minebound:blocks/poison_still"), FLOWING_TEXTURE = new ResourceLocation("minebound:blocks/poison_flow");
+			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("minebound:blocks/sb_poison_still"), FLOWING_TEXTURE = new ResourceLocation("minebound:blocks/sb_poison_flow");
 
 			@Override
 			public ResourceLocation getStillTexture() {
