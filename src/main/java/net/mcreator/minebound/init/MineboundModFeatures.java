@@ -19,6 +19,12 @@ import net.mcreator.minebound.world.features.ores.RawSewageFeature;
 import net.mcreator.minebound.world.features.ores.MoonstoneFeature;
 import net.mcreator.minebound.world.features.ores.MoonrockFeature;
 import net.mcreator.minebound.world.features.ores.MoonDustFeature;
+import net.mcreator.minebound.world.features.ores.GenerateInDepth6Feature;
+import net.mcreator.minebound.world.features.ores.GenerateInDepth5Feature;
+import net.mcreator.minebound.world.features.ores.GenerateInDepth4Feature;
+import net.mcreator.minebound.world.features.ores.GenerateInDepth3Feature;
+import net.mcreator.minebound.world.features.ores.GenerateInDepth2Feature;
+import net.mcreator.minebound.world.features.ores.GenerateInDepth1Feature;
 import net.mcreator.minebound.world.features.ores.DirtmaterialFeature;
 import net.mcreator.minebound.world.features.GlassTopperStructureFeature;
 import net.mcreator.minebound.world.features.ErchiusFuelPoolFeature;
@@ -42,4 +48,10 @@ public class MineboundModFeatures {
 	public static final RegistryObject<Feature<?>> AIR_TOPPER_STRUCTURE = REGISTRY.register("air_topper_structure", AirTopperStructureFeature::feature);
 	public static final RegistryObject<Feature<?>> ERCHIUS_FUEL_POOL = REGISTRY.register("erchius_fuel_pool", ErchiusFuelPoolFeature::new);
 	public static final RegistryObject<Feature<?>> ERCHIUS_CAVE_POOL = REGISTRY.register("erchius_cave_pool", ErchiusCavePoolFeature::new);
+	public static final RegistryObject<Feature<?>> GENERATE_IN_DEPTH_1 = REGISTRY.register("generate_in_depth_1", GenerateInDepth1Feature::feature);
+	public static final RegistryObject<Feature<?>> GENERATE_IN_DEPTH_2 = REGISTRY.register("generate_in_depth_2", GenerateInDepth2Feature::feature);
+	public static final RegistryObject<Feature<?>> GENERATE_IN_DEPTH_3 = REGISTRY.register("generate_in_depth_3", GenerateInDepth3Feature::feature);
+	public static final RegistryObject<Feature<?>> GENERATE_IN_DEPTH_4 = REGISTRY.register("generate_in_depth_4", GenerateInDepth4Feature::feature);
+	public static final RegistryObject<Feature<?>> GENERATE_IN_DEPTH_5 = REGISTRY.register("generate_in_depth_5", GenerateInDepth5Feature::feature);
+	public static final RegistryObject<Feature<?>> GENERATE_IN_DEPTH_6 = REGISTRY.register("generate_in_depth_6", GenerateInDepth6Feature::feature);
 }

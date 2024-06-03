@@ -271,7 +271,6 @@ public class MineboundModItems {
 	public static final RegistryObject<Item> DEADCORE = block(MineboundModBlocks.DEADCORE, MineboundModTabs.TAB_NATURALTILES);
 	public static final RegistryObject<Item> CLOUD = block(MineboundModBlocks.CLOUD, MineboundModTabs.TAB_NATURALTILES);
 	public static final RegistryObject<Item> ASTEROID_MAGMAROCK = block(MineboundModBlocks.ASTEROID_MAGMAROCK, MineboundModTabs.TAB_NATURALTILES);
-	public static final RegistryObject<Item> ASTEROID_MATEORITEROCK = block(MineboundModBlocks.ASTEROID_MATEORITEROCK, MineboundModTabs.TAB_NATURALTILES);
 	public static final RegistryObject<Item> TAR_TEST = block(MineboundModBlocks.TAR_TEST, MineboundModTabs.TAB_NATURALTILES);
 	public static final RegistryObject<Item> THEBLOCK = block(MineboundModBlocks.THEBLOCK, MineboundModTabs.TAB_NATURALTILES);
 	public static final RegistryObject<Item> ASPHALT = block(MineboundModBlocks.ASPHALT, MineboundModTabs.TAB_CRAFTABLEBLOCKS);
@@ -515,6 +514,13 @@ public class MineboundModItems {
 	public static final RegistryObject<Item> BLOCK_COCONUT_MILK = block(MineboundModBlocks.BLOCK_COCONUT_MILK, MineboundModTabs.TAB_ITEMS_AND_ORES);
 	public static final RegistryObject<Item> BLOCK_LAVA = block(MineboundModBlocks.BLOCK_LAVA, MineboundModTabs.TAB_ITEMS_AND_ORES);
 	public static final RegistryObject<Item> BLOCK_HEALING_WATER = block(MineboundModBlocks.BLOCK_HEALING_WATER, MineboundModTabs.TAB_ITEMS_AND_ORES);
+	public static final RegistryObject<Item> GENERATE_IN_DEPTH_1 = block(MineboundModBlocks.GENERATE_IN_DEPTH_1, MineboundModTabs.TAB_NATURALTILES);
+	public static final RegistryObject<Item> GENERATE_IN_DEPTH_2 = block(MineboundModBlocks.GENERATE_IN_DEPTH_2, MineboundModTabs.TAB_NATURALTILES);
+	public static final RegistryObject<Item> GENERATE_IN_DEPTH_3 = block(MineboundModBlocks.GENERATE_IN_DEPTH_3, MineboundModTabs.TAB_NATURALTILES);
+	public static final RegistryObject<Item> GENERATE_IN_DEPTH_4 = block(MineboundModBlocks.GENERATE_IN_DEPTH_4, MineboundModTabs.TAB_NATURALTILES);
+	public static final RegistryObject<Item> GENERATE_IN_DEPTH_5 = block(MineboundModBlocks.GENERATE_IN_DEPTH_5, MineboundModTabs.TAB_NATURALTILES);
+	public static final RegistryObject<Item> GENERATE_IN_DEPTH_6 = block(MineboundModBlocks.GENERATE_IN_DEPTH_6, MineboundModTabs.TAB_NATURALTILES);
+	public static final RegistryObject<Item> ASTEROID_METEORITEROCK = block(MineboundModBlocks.ASTEROID_METEORITEROCK, MineboundModTabs.TAB_NATURALTILES);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
