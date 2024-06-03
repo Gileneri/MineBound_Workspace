@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minebound:deleted_mod_element",
+  "features": "minebound:generate_in_depth_2",
+  "step": "underground_ores"
+}

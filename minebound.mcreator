@@ -7220,23 +7220,6 @@
       "path": "~/tiles/natural_blocks"
     },
     {
-      "name": "AsteroidMateoriterock",
-      "type": "block",
-      "sortid": 185,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "asteroid_mateoriterock",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/minebound/blockstates/asteroid_mateoriterock.json",
-          "src/main/resources/assets/minebound/models/item/asteroid_mateoriterock.json",
-          "src/main/java/net/mcreator/minebound/block/AsteroidMateoriterockBlock.java",
-          "src/main/resources/assets/minebound/models/block/asteroid_mateoriterock.json"
-        ]
-      },
-      "path": "~/tiles/natural_blocks"
-    },
-    {
       "name": "Deadcore",
       "type": "block",
       "sortid": 182,
@@ -14422,6 +14405,1708 @@
         ]
       },
       "path": "~/biomesAndDimensions/planettypes/Articplanet"
+    },
+    {
+      "name": "TarMiniBiome",
+      "type": "biome",
+      "sortid": 825,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tar_mini_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/TarMiniBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Mini Biomes"
+    },
+    {
+      "name": "ShipDimensionSelectGUITestThisGUIIsClosed",
+      "type": "procedure",
+      "sortid": 851,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ship_dimension_select_gui_test_this_gui_is_closed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/procedures/ShipDimensionSelectGUITestThisGUIIsClosedProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/biomesAndDimensions/Ships and Stations"
+    },
+    {
+      "name": "VolcanicBiome",
+      "type": "biome",
+      "sortid": 793,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "volcanic_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/VolcanicBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "TestDimensionToPlayAroundWith",
+      "type": "dimension",
+      "sortid": 874,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_dimension_to_play_around_with",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension/test_dimension_to_play_around_with.json",
+          "src/main/resources/data/minebound/dimension_type/test_dimension_to_play_around_with.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/TestDimensionToPlayAroundWithDimension.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions"
+    },
+    {
+      "name": "PrismMiniBiome",
+      "type": "biome",
+      "sortid": 828,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prism_mini_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/PrismMiniBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Mini Biomes"
+    },
+    {
+      "name": "FleshCavesUndergroundBiome",
+      "type": "biome",
+      "sortid": 837,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flesh_caves_underground_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/FleshCavesUndergroundBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Underground Biome"
+    },
+    {
+      "name": "SnowBiome",
+      "type": "biome",
+      "sortid": 785,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snow_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/SnowBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "RadioactiveMoon",
+      "type": "dimension",
+      "sortid": 872,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radioactive_moon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/dimension/RadioactiveMoonDimension.java",
+          "src/main/resources/data/minebound/dimension_type/radioactive_moon.json",
+          "src/main/resources/data/minebound/dimension/radioactive_moon.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Radioactive System"
+    },
+    {
+      "name": "DesertBarrenBiome",
+      "type": "biome",
+      "sortid": 806,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "desert_barren_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/DesertBarrenBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Sub Biomes"
+    },
+    {
+      "name": "ColourfulMiniBiome",
+      "type": "biome",
+      "sortid": 822,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "colourful_mini_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/ColourfulMiniBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Mini Biomes"
+    },
+    {
+      "name": "MoonFrozenBiome",
+      "type": "biome",
+      "sortid": 803,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_frozen_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/MoonFrozenBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "DecayedBiome",
+      "type": "biome",
+      "sortid": 794,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decayed_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/DecayedBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "AlpineMiniBiome",
+      "type": "biome",
+      "sortid": 823,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alpine_mini_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/AlpineMiniBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Mini Biomes"
+    },
+    {
+      "name": "OpenShipDimensionGUITest",
+      "type": "procedure",
+      "sortid": 852,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_ship_dimension_gui_test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/procedures/OpenShipDimensionGUITestProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/biomesAndDimensions/Ships and Stations"
+    },
+    {
+      "name": "HiveMiniBiome",
+      "type": "biome",
+      "sortid": 830,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hive_mini_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/HiveMiniBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Mini Biomes"
+    },
+    {
+      "name": "BioluminescenceMiniBiome",
+      "type": "biome",
+      "sortid": 831,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bioluminescence_mini_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/BioluminescenceMiniBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Mini Biomes"
+    },
+    {
+      "name": "MidnightTundraBiome",
+      "type": "biome",
+      "sortid": 813,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "midnight_tundra_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/MidnightTundraBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Sub Biomes"
+    },
+    {
+      "name": "MagmaBiome",
+      "type": "biome",
+      "sortid": 792,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magma_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/MagmaBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "SwampMiniBiome",
+      "type": "biome",
+      "sortid": 820,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swamp_mini_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/SwampMiniBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Mini Biomes"
+    },
+    {
+      "name": "SnowGardenBiome",
+      "type": "biome",
+      "sortid": 809,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snow_garden_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/SnowGardenBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Sub Biomes"
+    },
+    {
+      "name": "ShipDimensionSelectGUITest",
+      "type": "gui",
+      "sortid": 850,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ship_dimension_select_gui_test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/inventory/ShipDimensionSelectGUITestMenu.java",
+          "src/main/java/net/mcreator/minebound/client/gui/ShipDimensionSelectGUITestScreen.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Ships and Stations"
+    },
+    {
+      "name": "GentleMoon",
+      "type": "dimension",
+      "sortid": 859,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gentle_moon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/dimension/GentleMoonDimension.java",
+          "src/main/resources/data/minebound/dimension/gentle_moon.json",
+          "src/main/resources/data/minebound/dimension_type/gentle_moon.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Gentle System"
+    },
+    {
+      "name": "SavannahPlanet",
+      "type": "dimension",
+      "sortid": 863,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "savannah_planet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension/savannah_planet.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/SavannahPlanetDimension.java",
+          "src/main/resources/data/minebound/dimension_type/savannah_planet.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Temperate System"
+    },
+    {
+      "name": "JungleBiome",
+      "type": "biome",
+      "sortid": 787,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/JungleBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "AsteroidField",
+      "type": "dimension",
+      "sortid": 867,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asteroid_field",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/dimension/AsteroidFieldDimension.java",
+          "src/main/resources/data/minebound/dimension_type/asteroid_field.json",
+          "src/main/resources/data/minebound/dimension/asteroid_field.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Temperate System"
+    },
+    {
+      "name": "SavannahBiome",
+      "type": "biome",
+      "sortid": 783,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "savannah_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/SavannahBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "PlayerShipDimension",
+      "type": "dimension",
+      "sortid": 854,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_ship_dimension",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension_type/player_ship_dimension.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/PlayerShipDimensionDimension.java",
+          "src/main/resources/data/minebound/dimension/player_ship_dimension.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Ships and Stations"
+    },
+    {
+      "name": "DecayedVolcanicBiome",
+      "type": "biome",
+      "sortid": 815,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decayed_volcanic_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/DecayedVolcanicBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Sub Biomes"
+    },
+    {
+      "name": "GardenBiome",
+      "type": "biome",
+      "sortid": 779,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garden_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/GardenBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "PlayerSpaceStationDimension",
+      "type": "dimension",
+      "sortid": 857,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_space_station_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/dimension/PlayerSpaceStationDimensionDimension.java",
+          "src/main/resources/data/minebound/dimension/player_space_station_dimension.json",
+          "src/main/resources/data/minebound/dimension_type/player_space_station_dimension.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Ships and Stations"
+    },
+    {
+      "name": "ToxicBiome",
+      "type": "biome",
+      "sortid": 788,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxic_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/ToxicBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "TemperateMoon",
+      "type": "dimension",
+      "sortid": 866,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "temperate_moon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension/temperate_moon.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/TemperateMoonDimension.java",
+          "src/main/resources/data/minebound/dimension_type/temperate_moon.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Temperate System"
+    },
+    {
+      "name": "MoonTemperateBiome",
+      "type": "biome",
+      "sortid": 801,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_temperate_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/MoonTemperateBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "GardenForestBiome",
+      "type": "biome",
+      "sortid": 805,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garden_forest_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/GardenForestBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Sub Biomes"
+    },
+    {
+      "name": "LuminousCavesUndergroundBiome",
+      "type": "biome",
+      "sortid": 839,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminous_caves_underground_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/LuminousCavesUndergroundBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Underground Biome"
+    },
+    {
+      "name": "StoneCavesUndergroundBiome",
+      "type": "biome",
+      "sortid": 843,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_caves_underground_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/StoneCavesUndergroundBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Underground Biome"
+    },
+    {
+      "name": "MoonGentleBiome",
+      "type": "biome",
+      "sortid": 800,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_gentle_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/MoonGentleBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "BonesMiniBiome",
+      "type": "biome",
+      "sortid": 821,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bones_mini_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/BonesMiniBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Mini Biomes"
+    },
+    {
+      "name": "MushroomPatchMiniBiome",
+      "type": "biome",
+      "sortid": 819,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_patch_mini_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/MushroomPatchMiniBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Mini Biomes"
+    },
+    {
+      "name": "JungleMutatedBiome",
+      "type": "biome",
+      "sortid": 811,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_mutated_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/JungleMutatedBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Sub Biomes"
+    },
+    {
+      "name": "ForestJungleBiome",
+      "type": "biome",
+      "sortid": 807,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forest_jungle_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/ForestJungleBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Sub Biomes"
+    },
+    {
+      "name": "DecayedPlanet",
+      "type": "dimension",
+      "sortid": 882,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decayed_planet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension/decayed_planet.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/DecayedPlanetDimension.java",
+          "src/main/resources/data/minebound/dimension_type/decayed_planet.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Fiery System"
+    },
+    {
+      "name": "AsteroidFieldBiome",
+      "type": "biome",
+      "sortid": 797,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asteroid_field_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/AsteroidFieldBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "GeodeMiniBiome",
+      "type": "biome",
+      "sortid": 832,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "geode_mini_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/GeodeMiniBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Mini Biomes"
+    },
+    {
+      "name": "BarrenBiome",
+      "type": "biome",
+      "sortid": 798,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barren_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/BarrenBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "WhenLeavingDimension",
+      "type": "procedure",
+      "sortid": 848,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "when_leaving_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/procedures/WhenLeavingDimensionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/biomesAndDimensions/Gravity Procedures"
+    },
+    {
+      "name": "TundraBiome",
+      "type": "biome",
+      "sortid": 790,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tundra_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/TundraBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "FleshMiniBiome",
+      "type": "biome",
+      "sortid": 824,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flesh_mini_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/FleshMiniBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Mini Biomes"
+    },
+    {
+      "name": "MoonRadioactiveBiome",
+      "type": "biome",
+      "sortid": 802,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_radioactive_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/MoonRadioactiveBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "SteamSpringMiniBiome",
+      "type": "biome",
+      "sortid": 829,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steam_spring_mini_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/SteamSpringMiniBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Mini Biomes"
+    },
+    {
+      "name": "GasGiantPlanet",
+      "type": "dimension",
+      "sortid": 870,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gas_giant_planet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/dimension/GasGiantPlanetDimension.java",
+          "src/main/resources/data/minebound/dimension_type/gas_giant_planet.json",
+          "src/main/resources/data/minebound/dimension/gas_giant_planet.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Radioactive System"
+    },
+    {
+      "name": "BoneCavesUndergroundBiome",
+      "type": "biome",
+      "sortid": 835,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_caves_underground_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/BoneCavesUndergroundBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Underground Biome"
+    },
+    {
+      "name": "ToxicPlanet",
+      "type": "dimension",
+      "sortid": 873,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxic_planet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/dimension/ToxicPlanetDimension.java",
+          "src/main/resources/data/minebound/dimension_type/toxic_planet.json",
+          "src/main/resources/data/minebound/dimension/toxic_planet.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Radioactive System"
+    },
+    {
+      "name": "DepthTestBiome2",
+      "type": "biome",
+      "sortid": 767,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depth_test_biome_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/DepthTestBiome2Biome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Old Stuff/Depth Test Biomes"
+    },
+    {
+      "name": "DepthTestBiome1",
+      "type": "biome",
+      "sortid": 766,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depth_test_biome_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/DepthTestBiome1Biome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Old Stuff/Depth Test Biomes"
+    },
+    {
+      "name": "FieryMoon",
+      "type": "dimension",
+      "sortid": 883,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fiery_moon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension/fiery_moon.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/FieryMoonDimension.java",
+          "src/main/resources/data/minebound/dimension_type/fiery_moon.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Fiery System"
+    },
+    {
+      "name": "DepthTestBiome4",
+      "type": "biome",
+      "sortid": 769,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depth_test_biome_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/DepthTestBiome4Biome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Old Stuff/Depth Test Biomes"
+    },
+    {
+      "name": "VolcanicPlanet",
+      "type": "dimension",
+      "sortid": 881,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "volcanic_planet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension_type/volcanic_planet.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/VolcanicPlanetDimension.java",
+          "src/main/resources/data/minebound/dimension/volcanic_planet.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Fiery System"
+    },
+    {
+      "name": "DepthTestBiome3",
+      "type": "biome",
+      "sortid": 768,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depth_test_biome_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/DepthTestBiome3Biome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Old Stuff/Depth Test Biomes"
+    },
+    {
+      "name": "DepthTestBiome6",
+      "type": "biome",
+      "sortid": 771,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depth_test_biome_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/DepthTestBiome6Biome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Old Stuff/Depth Test Biomes"
+    },
+    {
+      "name": "DepthTestBiome5",
+      "type": "biome",
+      "sortid": 770,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depth_test_biome_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/DepthTestBiome5Biome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Old Stuff/Depth Test Biomes"
+    },
+    {
+      "name": "WhenEnteringDimension",
+      "type": "procedure",
+      "sortid": 847,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "when_entering_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/procedures/WhenEnteringDimensionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/biomesAndDimensions/Gravity Procedures"
+    },
+    {
+      "name": "ForestBiome",
+      "type": "biome",
+      "sortid": 782,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forest_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/ForestBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "IceCavesUndergroundBiome",
+      "type": "biome",
+      "sortid": 838,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_caves_underground_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/IceCavesUndergroundBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Underground Biome"
+    },
+    {
+      "name": "TundraPlanet",
+      "type": "dimension",
+      "sortid": 876,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tundra_planet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension_type/tundra_planet.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/TundraPlanetDimension.java",
+          "src/main/resources/data/minebound/dimension/tundra_planet.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Frozen System"
+    },
+    {
+      "name": "ReduceFallDamage",
+      "type": "procedure",
+      "sortid": 849,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reduce_fall_damage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/procedures/ReduceFallDamageProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "distance",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/biomesAndDimensions/Gravity Procedures"
+    },
+    {
+      "name": "EmptySpaceBiome",
+      "type": "biome",
+      "sortid": 856,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_space_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/EmptySpaceBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Additional Biomes"
+    },
+    {
+      "name": "SavannaDesertBiome",
+      "type": "biome",
+      "sortid": 808,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "savanna_desert_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/SavannaDesertBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Sub Biomes"
+    },
+    {
+      "name": "WildernessUndergroundBiome",
+      "type": "biome",
+      "sortid": 845,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wilderness_underground_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/WildernessUndergroundBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Underground Biome"
+    },
+    {
+      "name": "DesertPlanet",
+      "type": "dimension",
+      "sortid": 855,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "desert_planet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension_type/desert_planet.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/DesertPlanetDimension.java",
+          "src/main/resources/data/minebound/dimension/desert_planet.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Gentle System"
+    },
+    {
+      "name": "BarrenPlanet",
+      "type": "dimension",
+      "sortid": 879,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barren_planet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension_type/barren_planet.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/BarrenPlanetDimension.java",
+          "src/main/resources/data/minebound/dimension/barren_planet.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Frozen System"
+    },
+    {
+      "name": "MutatedSavannahBiome",
+      "type": "biome",
+      "sortid": 810,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mutated_savannah_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/MutatedSavannahBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Sub Biomes"
+    },
+    {
+      "name": "MiniVillageUndergroundBiome",
+      "type": "biome",
+      "sortid": 840,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mini_village_underground_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/MiniVillageUndergroundBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Underground Biome"
+    },
+    {
+      "name": "TarpitUndergroundBiome",
+      "type": "biome",
+      "sortid": 844,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tarpit_underground_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/TarpitUndergroundBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Underground Biome"
+    },
+    {
+      "name": "GardenPlanet",
+      "type": "dimension",
+      "sortid": 858,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "garden_planet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/dimension/GardenPlanetDimension.java",
+          "src/main/resources/data/minebound/dimension/garden_planet.json",
+          "src/main/resources/data/minebound/dimension_type/garden_planet.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Gentle System"
+    },
+    {
+      "name": "MutatedPlanet",
+      "type": "dimension",
+      "sortid": 871,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mutated_planet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension_type/mutated_planet.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/MutatedPlanetDimension.java",
+          "src/main/resources/data/minebound/dimension/mutated_planet.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Radioactive System"
+    },
+    {
+      "name": "ArcticBiome",
+      "type": "biome",
+      "sortid": 789,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arctic_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/ArcticBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "OasisMiniBiome",
+      "type": "biome",
+      "sortid": 818,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oasis_mini_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/OasisMiniBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Mini Biomes"
+    },
+    {
+      "name": "FrozenMoon",
+      "type": "dimension",
+      "sortid": 877,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frozen_moon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension/frozen_moon.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/FrozenMoonDimension.java",
+          "src/main/resources/data/minebound/dimension_type/frozen_moon.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Frozen System"
+    },
+    {
+      "name": "TundraSnowBiome",
+      "type": "biome",
+      "sortid": 812,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tundra_snow_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/TundraSnowBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Sub Biomes"
+    },
+    {
+      "name": "SnowPlanet",
+      "type": "dimension",
+      "sortid": 865,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snow_planet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension_type/snow_planet.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/SnowPlanetDimension.java",
+          "src/main/resources/data/minebound/dimension/snow_planet.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Temperate System"
+    },
+    {
+      "name": "MagmaPlanet",
+      "type": "dimension",
+      "sortid": 880,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magma_planet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension_type/magma_planet.json",
+          "src/main/resources/data/minebound/dimension/magma_planet.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/MagmaPlanetDimension.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Fiery System"
+    },
+    {
+      "name": "MidnightPlanet",
+      "type": "dimension",
+      "sortid": 878,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "midnight_planet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension_type/midnight_planet.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/MidnightPlanetDimension.java",
+          "src/main/resources/data/minebound/dimension/midnight_planet.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Frozen System"
+    },
+    {
+      "name": "GasGiantBiome",
+      "type": "biome",
+      "sortid": 868,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gas_giant_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/GasGiantBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Additional Biomes"
+    },
+    {
+      "name": "SlimeCavesUndergroundBiome",
+      "type": "biome",
+      "sortid": 842,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_caves_underground_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/SlimeCavesUndergroundBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Underground Biome"
+    },
+    {
+      "name": "MidnightBiome",
+      "type": "biome",
+      "sortid": 791,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "midnight_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/MidnightBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "ArcticPlanet",
+      "type": "dimension",
+      "sortid": 875,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arctic_planet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/dimension/ArcticPlanetDimension.java",
+          "src/main/resources/data/minebound/dimension/arctic_planet.json",
+          "src/main/resources/data/minebound/dimension_type/arctic_planet.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Frozen System"
+    },
+    {
+      "name": "AsteroidMeteoriterock",
+      "type": "block",
+      "sortid": 861,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asteroid_meteoriterock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/models/item/asteroid_meteoriterock.json",
+          "src/main/java/net/mcreator/minebound/block/AsteroidMeteoriterockBlock.java",
+          "src/main/resources/assets/minebound/models/block/asteroid_meteoriterock.json",
+          "src/main/resources/assets/minebound/blockstates/asteroid_meteoriterock.json"
+        ]
+      },
+      "path": "~/tiles/natural_blocks"
+    },
+    {
+      "name": "ForestPlanet",
+      "type": "dimension",
+      "sortid": 860,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forest_planet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/dimension/ForestPlanetDimension.java",
+          "src/main/resources/data/minebound/dimension/forest_planet.json",
+          "src/main/resources/data/minebound/dimension_type/forest_planet.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Gentle System"
+    },
+    {
+      "name": "JunglePlanet",
+      "type": "dimension",
+      "sortid": 869,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_planet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/dimension/JunglePlanetDimension.java",
+          "src/main/resources/data/minebound/dimension_type/jungle_planet.json",
+          "src/main/resources/data/minebound/dimension/jungle_planet.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Radioactive System"
+    },
+    {
+      "name": "OceanPlanet",
+      "type": "dimension",
+      "sortid": 864,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ocean_planet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension/ocean_planet.json",
+          "src/main/resources/data/minebound/dimension_type/ocean_planet.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/OceanPlanetDimension.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Temperate System"
+    },
+    {
+      "name": "BrainUndergroundBiome",
+      "type": "biome",
+      "sortid": 846,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brain_underground_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/BrainUndergroundBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Underground Biome"
+    },
+    {
+      "name": "SpringMiniBiome",
+      "type": "biome",
+      "sortid": 816,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spring_mini_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/SpringMiniBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Mini Biomes"
+    },
+    {
+      "name": "AsteroidsMiniBiome",
+      "type": "biome",
+      "sortid": 834,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asteroids_mini_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/AsteroidsMiniBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Mini Biomes"
+    },
+    {
+      "name": "MushroomsUndergroundBiome",
+      "type": "biome",
+      "sortid": 841,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushrooms_underground_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/MushroomsUndergroundBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Underground Biome"
+    },
+    {
+      "name": "VolcanicDecayedBiome",
+      "type": "biome",
+      "sortid": 814,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "volcanic_decayed_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/VolcanicDecayedBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Sub Biomes"
+    },
+    {
+      "name": "OceanBiome",
+      "type": "biome",
+      "sortid": 784,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ocean_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/OceanBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "FoundryMiniBiome",
+      "type": "biome",
+      "sortid": 833,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foundry_mini_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/FoundryMiniBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Mini Biomes"
+    },
+    {
+      "name": "GiantFlowersMiniBiome",
+      "type": "biome",
+      "sortid": 826,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_flowers_mini_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/GiantFlowersMiniBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Mini Biomes"
+    },
+    {
+      "name": "EyepatchMiniBiome",
+      "type": "biome",
+      "sortid": 827,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eyepatch_mini_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/EyepatchMiniBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Mini Biomes"
+    },
+    {
+      "name": "GenerateInDepth5",
+      "type": "block",
+      "sortid": 776,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "generate_in_depth_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/forge/biome_modifier/generate_in_depth_5_biome_modifier.json",
+          "src/main/resources/assets/minebound/models/item/generate_in_depth_5.json",
+          "src/main/resources/assets/minebound/blockstates/generate_in_depth_5.json",
+          "src/main/resources/assets/minebound/models/block/generate_in_depth_5.json",
+          "src/main/java/net/mcreator/minebound/block/GenerateInDepth5Block.java",
+          "src/main/java/net/mcreator/minebound/world/features/ores/GenerateInDepth5Feature.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Old Stuff/Depth Test Biomes"
+    },
+    {
+      "name": "DesertBiome",
+      "type": "biome",
+      "sortid": 781,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "desert_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/DesertBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "GenerateInDepth6",
+      "type": "block",
+      "sortid": 777,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "generate_in_depth_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/models/item/generate_in_depth_6.json",
+          "src/main/java/net/mcreator/minebound/block/GenerateInDepth6Block.java",
+          "src/main/resources/assets/minebound/models/block/generate_in_depth_6.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/GenerateInDepth6Feature.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/generate_in_depth_6_biome_modifier.json",
+          "src/main/resources/assets/minebound/blockstates/generate_in_depth_6.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Old Stuff/Depth Test Biomes"
+    },
+    {
+      "name": "GenerateInDepth3",
+      "type": "block",
+      "sortid": 774,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "generate_in_depth_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/forge/biome_modifier/generate_in_depth_3_biome_modifier.json",
+          "src/main/resources/assets/minebound/models/block/generate_in_depth_3.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/GenerateInDepth3Feature.java",
+          "src/main/resources/assets/minebound/models/item/generate_in_depth_3.json",
+          "src/main/resources/assets/minebound/blockstates/generate_in_depth_3.json",
+          "src/main/java/net/mcreator/minebound/block/GenerateInDepth3Block.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Old Stuff/Depth Test Biomes"
+    },
+    {
+      "name": "AncientVaultBiome",
+      "type": "biome",
+      "sortid": 778,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_vault_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/AncientVaultBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Additional Biomes"
+    },
+    {
+      "name": "GenerateInDepth4",
+      "type": "block",
+      "sortid": 775,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "generate_in_depth_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/models/block/generate_in_depth_4.json",
+          "src/main/java/net/mcreator/minebound/block/GenerateInDepth4Block.java",
+          "src/main/resources/assets/minebound/blockstates/generate_in_depth_4.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/GenerateInDepth4Feature.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/generate_in_depth_4_biome_modifier.json",
+          "src/main/resources/assets/minebound/models/item/generate_in_depth_4.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Old Stuff/Depth Test Biomes"
+    },
+    {
+      "name": "AncientGateway",
+      "type": "dimension",
+      "sortid": 862,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_gateway",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/dimension_type/ancient_gateway.json",
+          "src/main/resources/data/minebound/dimension/ancient_gateway.json",
+          "src/main/java/net/mcreator/minebound/world/dimension/AncientGatewayDimension.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Planetary Dimensions/Gentle System"
+    },
+    {
+      "name": "GenerateInDepth1",
+      "type": "block",
+      "sortid": 772,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "generate_in_depth_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minebound/forge/biome_modifier/generate_in_depth_1_biome_modifier.json",
+          "src/main/resources/assets/minebound/models/item/generate_in_depth_1.json",
+          "src/main/resources/assets/minebound/blockstates/generate_in_depth_1.json",
+          "src/main/java/net/mcreator/minebound/block/GenerateInDepth1Block.java",
+          "src/main/resources/assets/minebound/models/block/generate_in_depth_1.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/GenerateInDepth1Feature.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Old Stuff/Depth Test Biomes"
+    },
+    {
+      "name": "CellCavesUndergroundBiome",
+      "type": "biome",
+      "sortid": 836,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cell_caves_underground_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/CellCavesUndergroundBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Underground Biome"
+    },
+    {
+      "name": "GenerateInDepth2",
+      "type": "block",
+      "sortid": 773,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "generate_in_depth_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minebound/models/block/generate_in_depth_2.json",
+          "src/main/java/net/mcreator/minebound/world/features/ores/GenerateInDepth2Feature.java",
+          "src/main/resources/data/minebound/forge/biome_modifier/generate_in_depth_2_biome_modifier.json",
+          "src/main/java/net/mcreator/minebound/block/GenerateInDepth2Block.java",
+          "src/main/resources/assets/minebound/models/item/generate_in_depth_2.json",
+          "src/main/resources/assets/minebound/blockstates/generate_in_depth_2.json"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Old Stuff/Depth Test Biomes"
+    },
+    {
+      "name": "MoonFieryBiome",
+      "type": "biome",
+      "sortid": 804,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_fiery_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/MoonFieryBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "MutatedBiome",
+      "type": "biome",
+      "sortid": 786,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mutated_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/MutatedBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
+    },
+    {
+      "name": "TentacleBiome",
+      "type": "biome",
+      "sortid": 799,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tentacle_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/minebound/world/biome/TentacleBiomeBiome.java"
+        ]
+      },
+      "path": "~/biomesAndDimensions/Biome Megafolder/Main Biomes"
     }
   ],
   "variable_elements": [
@@ -14891,7 +16576,6 @@
       "block.minebound.mossy_packed_dirt": "Mossy Packed Dirt",
       "block.minebound.metal_railing_slab": "Metal Railing Slab",
       "entity.minebound.lumoth_mob": "Lumoth",
-      "block.minebound.asteroid_mateoriterock": "Meteorite Rock",
       "block.minebound.gold_block": "Gold Block",
       "item.test.tentacle_spawner_mob_spawn_egg": "Tentacle Spawner Spawn Egg",
       "entity.test.wisper_mob": "Wisper",
@@ -14962,6 +16646,7 @@
       "entity.test.peblit_mob": "Peblit",
       "entity.minebound.mech_test_leg_left": "Mech Test Leg Left",
       "item.test.batong_mob_spawn_egg": "Batong Spawn Egg",
+      "item.minebound.asteroid_field": "Desert Planet Portal Igniter",
       "subtitles.footstep_dirt": "footstep_dirt",
       "block.minebound.asphalt_slab": "Asphalt Slab",
       "entity.test.monopus_mob_charging": "Monopus",
@@ -15180,9 +16865,7 @@
       "entity.test.spinemine_mob": "Spinemine",
       "effect.test.wet": "Wet",
       "biome.test.emptyspace": "Emptyspace",
-      "biome.minebound.articocean": "Artic ocean",
       "entity.minebound.voltip_mob": "Voltip",
-      "biome.minebound.ocean": "Ocean",
       "item.test.paratail_mob_spawn_egg": "Paratail Spawn Egg",
       "item.test.test_monster_stat_item": "Test Monster Stat Item",
       "item.test.crustoise_mob_charging_spawn_egg": "Crustoise Spawn Egg",
@@ -15248,7 +16931,6 @@
       "block.minebound.smoothice": "Smooth Ice",
       "block.minebound.timber": "Timber",
       "block.test.frozendirt": "Frozen dirt",
-      "biome.minebound.magmaocean": "Magma ocean",
       "block.minebound.outpost_support_thickwall": "Outpost Support Thick Wall",
       "block.minebound.magmarock": "Magmarock",
       "block.minebound.drysand": "Dry Sand",
@@ -15811,46 +17493,31 @@
         "name": "effects",
         "children": [
           {
+            "name": "Buffs",
+            "children": [
+              {
+                "name": "Bonus Health",
+                "children": []
+              },
+              {
+                "name": "Bonus Energy",
+                "children": []
+              },
+              {
+                "name": "Regeneration 1",
+                "children": []
+              },
+              {
+                "name": "Healing",
+                "children": []
+              }
+            ]
+          },
+          {
             "name": "Debuffs",
             "children": [
               {
-                "name": "Frost",
-                "children": []
-              },
-              {
                 "name": "deadly radiation",
-                "children": []
-              },
-              {
-                "name": "Slow",
-                "children": []
-              },
-              {
-                "name": "Tar",
-                "children": []
-              },
-              {
-                "name": "Food_Poisoning",
-                "children": []
-              },
-              {
-                "name": "Deadly_Heat",
-                "children": []
-              },
-              {
-                "name": "Slime",
-                "children": []
-              },
-              {
-                "name": "Starving",
-                "children": []
-              },
-              {
-                "name": "Spooked",
-                "children": []
-              },
-              {
-                "name": "Burning",
                 "children": []
               },
               {
@@ -15858,11 +17525,7 @@
                 "children": []
               },
               {
-                "name": "poison",
-                "children": []
-              },
-              {
-                "name": "Hungry",
+                "name": "Slow",
                 "children": []
               },
               {
@@ -15870,11 +17533,51 @@
                 "children": []
               },
               {
+                "name": "Spooked",
+                "children": []
+              },
+              {
+                "name": "Slime",
+                "children": []
+              },
+              {
+                "name": "Hungry",
+                "children": []
+              },
+              {
+                "name": "Frost",
+                "children": []
+              },
+              {
+                "name": "poison",
+                "children": []
+              },
+              {
+                "name": "Starving",
+                "children": []
+              },
+              {
+                "name": "Food_Poisoning",
+                "children": []
+              },
+              {
                 "name": "Melting",
                 "children": []
               },
               {
+                "name": "Tar",
+                "children": []
+              },
+              {
+                "name": "Burning",
+                "children": []
+              },
+              {
                 "name": "Electrified",
+                "children": []
+              },
+              {
+                "name": "Deadly_Heat",
                 "children": []
               },
               {
@@ -15887,32 +17590,11 @@
             "name": "Neutral",
             "children": [
               {
-                "name": "Full_Belly",
-                "children": []
-              },
-              {
                 "name": "shield_generator",
                 "children": []
-              }
-            ]
-          },
-          {
-            "name": "Buffs",
-            "children": [
-              {
-                "name": "Regeneration 1",
-                "children": []
               },
               {
-                "name": "Healing",
-                "children": []
-              },
-              {
-                "name": "Bonus Energy",
-                "children": []
-              },
-              {
-                "name": "Bonus Health",
+                "name": "Full_Belly",
                 "children": []
               }
             ]
@@ -16005,45 +17687,88 @@
         "name": "biomesAndDimensions",
         "children": [
           {
-            "name": "planettypes",
+            "name": "Gravity Procedures",
+            "children": []
+          },
+          {
+            "name": "Old Stuff",
             "children": [
               {
-                "name": "toxic",
+                "name": "planettypes",
+                "children": [
+                  {
+                    "name": "toxic",
+                    "children": []
+                  },
+                  {
+                    "name": "Moon",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Depth Test Biomes",
                 "children": []
               },
               {
-                "name": "Moon",
-                "children": []
-              },
-              {
-                "name": "Oceanic_Planet",
-                "children": []
-              },
-              {
-                "name": "Lava_Planet",
-                "children": []
-              },
-              {
-                "name": "Articplanet",
-                "children": []
-              },
-              {
-                "name": "Barren",
+                "name": "space",
                 "children": []
               }
             ]
           },
           {
-            "name": "ship_stuff",
+            "name": "Planetary Dimensions",
+            "children": [
+              {
+                "name": "Gentle System",
+                "children": []
+              },
+              {
+                "name": "Temperate System",
+                "children": []
+              },
+              {
+                "name": "Radioactive System",
+                "children": []
+              },
+              {
+                "name": "Frozen System",
+                "children": []
+              },
+              {
+                "name": "Fiery System",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Ships and Stations",
             "children": []
           },
           {
-            "name": "space",
-            "children": []
-          },
-          {
-            "name": "misc",
-            "children": []
+            "name": "Biome Megafolder",
+            "children": [
+              {
+                "name": "Additional Biomes",
+                "children": []
+              },
+              {
+                "name": "Main Biomes",
+                "children": []
+              },
+              {
+                "name": "Mini Biomes",
+                "children": []
+              },
+              {
+                "name": "Sub Biomes",
+                "children": []
+              },
+              {
+                "name": "Underground Biome",
+                "children": []
+              }
+            ]
           }
         ]
       },
@@ -16077,19 +17802,6 @@
           },
           {
             "name": "display energy UI",
-            "children": []
-          }
-        ]
-      },
-      {
-        "name": "Music and Sounds",
-        "children": [
-          {
-            "name": "background environmental ",
-            "children": []
-          },
-          {
-            "name": "music",
             "children": []
           }
         ]

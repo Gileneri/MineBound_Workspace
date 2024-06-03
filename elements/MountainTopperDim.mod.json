@@ -4,30 +4,33 @@
   "definition": {
     "biomesInDimension": [
       {
-        "value": "mutated_extreme_hills_with_trees"
+        "value": "CUSTOM:NoSnowHighUpBiome"
       },
       {
-        "value": "smaller_extreme_hills"
+        "value": "CUSTOM:DepthTestBiome1"
       },
       {
-        "value": "mutated_taiga"
+        "value": "CUSTOM:DepthTestBiome2"
       },
       {
-        "value": "plains"
+        "value": "CUSTOM:DepthTestBiome3"
       },
       {
-        "value": "deep_ocean"
+        "value": "CUSTOM:DepthTestBiome4"
       },
       {
-        "value": "ocean"
+        "value": "CUSTOM:DepthTestBiome5"
+      },
+      {
+        "value": "CUSTOM:DepthTestBiome6"
       }
     ],
     "worldGenType": "Normal world gen",
     "mainFillerBlock": {
-      "value": "CUSTOM:Moonrock"
+      "value": "CUSTOM:ConcreteBlock"
     },
     "fluidBlock": {
-      "value": "CUSTOM:MoonDust"
+      "value": "Blocks.FLOWING_WATER"
     },
     "canRespawnHere": false,
     "hasFog": false,

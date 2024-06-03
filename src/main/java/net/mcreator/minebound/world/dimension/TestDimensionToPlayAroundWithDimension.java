@@ -1,0 +1,50 @@
+
+package net.mcreator.minebound.world.dimension;
+
+@Mod.EventBusSubscriber
+public class TestDimensionToPlayAroundWithDimension {
+
+	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
+	public static class Fixers {
+
+		@SubscribeEvent
+		@OnlyIn(Dist.CLIENT)
+		public static void registerDimensionSpecialEffects(FMLClientSetupEvent event) {
+			DimensionSpecialEffects customEffect = new DimensionSpecialEffects(128, true, DimensionSpecialEffects.SkyType.NORMAL, false, false) {
+
+				@Override
+				public Vec3 getBrightnessDependentFogColor(Vec3 color, float sunHeight) {
+					return color.multiply(sunHeight * 0.94 + 0.06, sunHeight * 0.94 + 0.06, sunHeight * 0.91 + 0.09);
+				}
+
+				@Override
+				public boolean isFoggyAt(int x, int y) {
+					return false;
+				}
+
+			};
+			event.enqueueWork(() -> DimensionSpecialEffects.EFFECTS.put(new ResourceLocation("minebound:test_dimension_to_play_around_with"), customEffect));
+		}
+
+	}
+
+	@SubscribeEvent
+	public static void onPlayerChangedDimensionEvent(PlayerEvent.PlayerChangedDimensionEvent event) {
+		Entity entity = event.getEntity();
+		Level world = entity.level;
+		double x = entity.getX();
+		double y = entity.getY();
+		double z = entity.getZ();
+
+		if (event.getFrom() == ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("minebound:test_dimension_to_play_around_with"))) {
+
+			WhenLeavingDimensionProcedure.execute();
+		}
+
+		if (event.getTo() == ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("minebound:test_dimension_to_play_around_with"))) {
+
+			WhenEnteringDimensionProcedure.execute();
+		}
+	}
+
+}

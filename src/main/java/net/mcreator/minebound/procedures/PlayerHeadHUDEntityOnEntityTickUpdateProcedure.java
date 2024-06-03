@@ -39,7 +39,7 @@ public class PlayerHeadHUDEntityOnEntityTickUpdateProcedure {
 					Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 						return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 					}
-				}.compareDistOf(x, (y - 1000000), z)).findFirst().orElse(null)).getDisplayName().getString()).equals(entity.getDisplayName().getString()) || ("Notch").equals(entity.getDisplayName().getString())) {
+				}.compareDistOf(x, (y - 1000000), z)).findFirst().orElse(null)).getDisplayName().getString()).equals(entity.getDisplayName().getString()) || ("jeb_").equals(entity.getDisplayName().getString())) {
 					foundTarget = true;
 					{
 						Entity _ent = entity;
@@ -80,7 +80,7 @@ public class PlayerHeadHUDEntityOnEntityTickUpdateProcedure {
 					Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 						return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 					}
-				}.compareDistOf(x, (y - 1000000), z)).findFirst().orElse(null)).getDisplayName().getString()).equals(entity.getDisplayName().getString()) || ("Notch").equals(entity.getDisplayName().getString())) {
+				}.compareDistOf(x, (y - 1000000), z)).findFirst().orElse(null)).getDisplayName().getString()).equals(entity.getDisplayName().getString()) || ("jeb_").equals(entity.getDisplayName().getString())) {
 					foundTarget = true;
 					{
 						Entity _ent = entity;
@@ -124,7 +124,7 @@ public class PlayerHeadHUDEntityOnEntityTickUpdateProcedure {
 							.collect(Collectors.toList());
 					for (Entity entityiterator : _entfound) {
 						if (entityiterator instanceof Player || entityiterator instanceof ServerPlayer) {
-							if ((entityiterator.getDisplayName().getString()).equals(entity.getDisplayName().getString()) || ("Notch").equals(entity.getDisplayName().getString())) {
+							if ((entityiterator.getDisplayName().getString()).equals(entity.getDisplayName().getString()) || ("jeb_").equals(entity.getDisplayName().getString())) {
 								foundTarget = true;
 								{
 									Entity _ent = entity;

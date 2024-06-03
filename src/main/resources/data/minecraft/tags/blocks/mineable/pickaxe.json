@@ -48,7 +48,6 @@
     "minebound:unrefined_conglomerate",
     "minebound:unrefined_arkose",
     "minebound:asteroid_magmarock",
-    "minebound:asteroid_mateoriterock",
     "minebound:asphalt",
     "minebound:asphalt_slab",
     "minebound:bricks",
@@ -192,6 +191,7 @@
     "minebound:pillar_block",
     "minebound:pillar_block_bottom",
     "minebound:pillar_block_middle",
-    "minebound:pillar_block_top"
+    "minebound:pillar_block_top",
+    "minebound:asteroid_meteoriterock"
   ]
 }

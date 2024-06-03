@@ -233,6 +233,12 @@ import net.mcreator.minebound.block.GlyphBlockBlock;
 import net.mcreator.minebound.block.GlassBlockBlock;
 import net.mcreator.minebound.block.GeodestoneBlock;
 import net.mcreator.minebound.block.GeodecrystalsBlock;
+import net.mcreator.minebound.block.GenerateInDepth6Block;
+import net.mcreator.minebound.block.GenerateInDepth5Block;
+import net.mcreator.minebound.block.GenerateInDepth4Block;
+import net.mcreator.minebound.block.GenerateInDepth3Block;
+import net.mcreator.minebound.block.GenerateInDepth2Block;
+import net.mcreator.minebound.block.GenerateInDepth1Block;
 import net.mcreator.minebound.block.FrozendirtBlock;
 import net.mcreator.minebound.block.FlowerBlockBlock;
 import net.mcreator.minebound.block.FleshpileBlock;
@@ -296,7 +302,7 @@ import net.mcreator.minebound.block.BambooStairsBlock;
 import net.mcreator.minebound.block.BambooSlabBlock;
 import net.mcreator.minebound.block.BambooBlock;
 import net.mcreator.minebound.block.AviantechblockBlock;
-import net.mcreator.minebound.block.AsteroidMateoriterockBlock;
+import net.mcreator.minebound.block.AsteroidMeteoriterockBlock;
 import net.mcreator.minebound.block.AsteroidMagmarockBlock;
 import net.mcreator.minebound.block.AsphaltSlabBlock;
 import net.mcreator.minebound.block.AsphaltBlock;
@@ -382,7 +388,6 @@ public class MineboundModBlocks {
 	public static final RegistryObject<Block> DEADCORE = REGISTRY.register("deadcore", () -> new DeadcoreBlock());
 	public static final RegistryObject<Block> CLOUD = REGISTRY.register("cloud", () -> new CloudBlock());
 	public static final RegistryObject<Block> ASTEROID_MAGMAROCK = REGISTRY.register("asteroid_magmarock", () -> new AsteroidMagmarockBlock());
-	public static final RegistryObject<Block> ASTEROID_MATEORITEROCK = REGISTRY.register("asteroid_mateoriterock", () -> new AsteroidMateoriterockBlock());
 	public static final RegistryObject<Block> TAR_TEST = REGISTRY.register("tar_test", () -> new TarTestBlock());
 	public static final RegistryObject<Block> THEBLOCK = REGISTRY.register("theblock", () -> new TheblockBlock());
 	public static final RegistryObject<Block> ASPHALT = REGISTRY.register("asphalt", () -> new AsphaltBlock());
@@ -604,6 +609,13 @@ public class MineboundModBlocks {
 	public static final RegistryObject<Block> BLOCK_LAVA = REGISTRY.register("block_lava", () -> new BlockLavaBlock());
 	public static final RegistryObject<Block> HEALING_WATER = REGISTRY.register("healing_water", () -> new HealingWaterBlock());
 	public static final RegistryObject<Block> BLOCK_HEALING_WATER = REGISTRY.register("block_healing_water", () -> new BlockHealingWaterBlock());
+	public static final RegistryObject<Block> GENERATE_IN_DEPTH_1 = REGISTRY.register("generate_in_depth_1", () -> new GenerateInDepth1Block());
+	public static final RegistryObject<Block> GENERATE_IN_DEPTH_2 = REGISTRY.register("generate_in_depth_2", () -> new GenerateInDepth2Block());
+	public static final RegistryObject<Block> GENERATE_IN_DEPTH_3 = REGISTRY.register("generate_in_depth_3", () -> new GenerateInDepth3Block());
+	public static final RegistryObject<Block> GENERATE_IN_DEPTH_4 = REGISTRY.register("generate_in_depth_4", () -> new GenerateInDepth4Block());
+	public static final RegistryObject<Block> GENERATE_IN_DEPTH_5 = REGISTRY.register("generate_in_depth_5", () -> new GenerateInDepth5Block());
+	public static final RegistryObject<Block> GENERATE_IN_DEPTH_6 = REGISTRY.register("generate_in_depth_6", () -> new GenerateInDepth6Block());
+	public static final RegistryObject<Block> ASTEROID_METEORITEROCK = REGISTRY.register("asteroid_meteoriterock", () -> new AsteroidMeteoriterockBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

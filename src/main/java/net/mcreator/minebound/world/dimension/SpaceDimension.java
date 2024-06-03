@@ -49,7 +49,7 @@ public class SpaceDimension {
 		double z = entity.getZ();
 		if (event.getTo() == ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("minebound:space"))) {
 
-			WhenPlayerEntersShipDimensionProcedure.execute();
+			WhenPlayerEntersShipDimensionProcedure.execute(world, entity);
 		}
 	}
 }
