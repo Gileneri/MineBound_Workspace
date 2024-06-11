@@ -4,10 +4,10 @@
   "definition": {
     "name": "Jungle",
     "groundBlock": {
-      "value": "CUSTOM:VineBlock"
+      "value": "CUSTOM:Dirtmaterial"
     },
     "undergroundBlock": {
-      "value": "CUSTOM:Mud"
+      "value": "CUSTOM:Dirtmaterial"
     },
     "underwaterBlock": {
       "value": ""

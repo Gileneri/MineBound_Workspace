@@ -10,7 +10,7 @@
       "value": "CUSTOM:Sand"
     },
     "underwaterBlock": {
-      "value": "CUSTOM:Sand"
+      "value": ""
     },
     "airColor": {
       "value": -8397577,
@@ -51,29 +51,29 @@
     },
     "particlesProbability": 0.5,
     "rainingPossibility": 0.5,
-    "temperature": 0.5,
+    "temperature": 1.0,
     "spawnBiome": false,
     "spawnInCaves": false,
     "spawnBiomeNether": false,
     "genTemperature": {
-      "min": -0.5,
-      "max": 0.5
-    },
-    "genHumidity": {
-      "min": -0.5,
-      "max": 0.5
-    },
-    "genContinentalness": {
-      "min": 0.3,
+      "min": -0.25,
       "max": 1.0
     },
+    "genHumidity": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "genContinentalness": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "genErosion": {
-      "min": -0.5,
-      "max": 0.5
+      "min": 0.0,
+      "max": 0.0
     },
     "genWeirdness": {
       "min": -1.0,
-      "max": 1.0
+      "max": 0.0
     },
     "grassPerChunk": 0,
     "seagrassPerChunk": 0,

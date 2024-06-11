@@ -65,8 +65,8 @@ import net.mcreator.minebound.world.biome.ForestBiomeBiome;
 import net.mcreator.minebound.world.biome.FleshMiniBiomeBiome;
 import net.mcreator.minebound.world.biome.FleshCavesUndergroundBiomeBiome;
 import net.mcreator.minebound.world.biome.EyepatchMiniBiomeBiome;
-import net.mcreator.minebound.world.biome.EmptyspaceBiome;
 import net.mcreator.minebound.world.biome.EmptySpaceBiomeBiome;
+import net.mcreator.minebound.world.biome.EarthBiomeBiome;
 import net.mcreator.minebound.world.biome.DesertBiomeBiome;
 import net.mcreator.minebound.world.biome.DesertBarrenBiomeBiome;
 import net.mcreator.minebound.world.biome.DepthTestBiome6Biome;
@@ -94,7 +94,6 @@ import net.mcreator.minebound.MineboundMod;
 
 public class MineboundModBiomes {
 	public static final DeferredRegister<Biome> REGISTRY = DeferredRegister.create(ForgeRegistries.BIOMES, MineboundMod.MODID);
-	public static final RegistryObject<Biome> EMPTYSPACE = REGISTRY.register("emptyspace", EmptyspaceBiome::createBiome);
 	public static final RegistryObject<Biome> NO_SNOW_HIGH_UP_BIOME = REGISTRY.register("no_snow_high_up_biome", NoSnowHighUpBiomeBiome::createBiome);
 	public static final RegistryObject<Biome> MOON_BIOME = REGISTRY.register("moon_biome", MoonBiomeBiome::createBiome);
 	public static final RegistryObject<Biome> TOXIC_OCEAN = REGISTRY.register("toxic_ocean", ToxicOceanBiome::createBiome);
@@ -172,6 +171,7 @@ public class MineboundModBiomes {
 	public static final RegistryObject<Biome> TARPIT_UNDERGROUND_BIOME = REGISTRY.register("tarpit_underground_biome", TarpitUndergroundBiomeBiome::createBiome);
 	public static final RegistryObject<Biome> WILDERNESS_UNDERGROUND_BIOME = REGISTRY.register("wilderness_underground_biome", WildernessUndergroundBiomeBiome::createBiome);
 	public static final RegistryObject<Biome> BRAIN_UNDERGROUND_BIOME = REGISTRY.register("brain_underground_biome", BrainUndergroundBiomeBiome::createBiome);
-	public static final RegistryObject<Biome> EMPTY_SPACE_BIOME = REGISTRY.register("empty_space_biome", EmptySpaceBiomeBiome::createBiome);
 	public static final RegistryObject<Biome> GAS_GIANT_BIOME = REGISTRY.register("gas_giant_biome", GasGiantBiomeBiome::createBiome);
+	public static final RegistryObject<Biome> EARTH_BIOME = REGISTRY.register("earth_biome", EarthBiomeBiome::createBiome);
+	public static final RegistryObject<Biome> EMPTY_SPACE_BIOME = REGISTRY.register("empty_space_biome", EmptySpaceBiomeBiome::createBiome);
 }

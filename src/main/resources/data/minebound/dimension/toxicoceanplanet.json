@@ -26,7 +26,7 @@
       "legacy_random_source": false,
       "disable_mob_generation": true,
       "noodle_caves_enabled": false,
-      "noise_caves_enabled": true,
+      "noise_caves_enabled": false,
       "aquifers_enabled": true,
       "deepslate_enabled": false,
       "ore_veins_enabled": false,

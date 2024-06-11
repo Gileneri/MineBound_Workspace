@@ -21,6 +21,12 @@
     "sleepResult": "ALLOW",
     "hasSkyLight": true,
     "imitateOverworldBehaviour": false,
+    "onPlayerEntersDimension": {
+      "name": "WhenEnteringDimension"
+    },
+    "onPlayerLeavesDimension": {
+      "name": "WhenLeavingDimension"
+    },
     "portalFrame": {
       "value": ""
     },

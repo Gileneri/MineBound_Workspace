@@ -30,7 +30,6 @@
     "minebound:flower_block",
     "minebound:sod_block",
     "minebound:waste",
-    "minebound:smoothcobblestone",
     "minebound:drysand",
     "minebound:rainbow_wood_planks",
     "minebound:roughsandstone",
@@ -41,6 +40,7 @@
     "minecraft:void_air",
     "minebound:raw_sewage",
     "minebound:bricks",
+    "minebound:smoothcobblestone",
     "minebound:geodestone",
     "minebound:smoothice",
     "minebound:copper_roofing",
@@ -60,6 +60,9 @@
     "minebound:vine_block",
     "minebound:mushroom_block",
     "minebound:petal_blocks",
-    "minebound:pile_of_eyes"
+    "minebound:pile_of_eyes",
+    "minebound:cloud",
+    "minebound:meteoriterock",
+    "minebound:tentacle_cluster"
   ]
 }

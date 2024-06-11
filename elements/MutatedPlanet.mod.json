@@ -18,18 +18,18 @@
     ],
     "worldGenType": "Normal world gen",
     "mainFillerBlock": {
-      "value": "CUSTOM:Dirtmaterial"
+      "value": "CUSTOM:Alienrock"
     },
     "fluidBlock": {
-      "value": "Blocks.FLOWING_WATER"
+      "value": "CUSTOM:Poison"
     },
     "canRespawnHere": false,
     "hasFog": false,
     "isDark": true,
     "doesWaterVaporize": false,
-    "sleepResult": "ALLOW",
+    "sleepResult": "DENY",
     "hasSkyLight": true,
-    "imitateOverworldBehaviour": true,
+    "imitateOverworldBehaviour": false,
     "onPlayerEntersDimension": {
       "name": "WhenEnteringDimension"
     },

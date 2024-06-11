@@ -1,8 +1,6 @@
 package net.mcreator.minebound.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
-
-import javax.annotation.Nullable;
+import net.mcreator.minebound.MineboundMod;
 
 public class ShipDimensionSelectGUITestThisGUIIsClosedProcedure {
 	public static void execute() {

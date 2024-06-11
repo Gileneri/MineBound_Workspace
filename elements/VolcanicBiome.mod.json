@@ -12,6 +12,10 @@
     "underwaterBlock": {
       "value": ""
     },
+    "airColor": {
+      "value": -3262450,
+      "falpha": 0.0
+    },
     "grassColor": {
       "value": -12278228,
       "falpha": 0.0

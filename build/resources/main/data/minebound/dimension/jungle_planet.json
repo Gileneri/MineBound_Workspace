@@ -120,14 +120,14 @@
       "name": "minebound:jungle_planet",
       "sea_level": 63,
       "legacy_random_source": false,
-      "disable_mob_generation": false,
-      "noodle_caves_enabled": true,
-      "noise_caves_enabled": true,
-      "aquifers_enabled": true,
-      "deepslate_enabled": true,
-      "ore_veins_enabled": true,
+      "disable_mob_generation": true,
+      "noodle_caves_enabled": false,
+      "noise_caves_enabled": false,
+      "aquifers_enabled": false,
+      "deepslate_enabled": false,
+      "ore_veins_enabled": false,
       "default_block": {
-        "Name": "minebound:smoothcobblestone"
+        "Name": "minebound:dirtmaterial"
       },
       "default_fluid": {
         "Name": "minecraft:water",
@@ -661,14 +661,14 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minebound:vine_block"
+                              "Name": "minebound:dirtmaterial"
                             }
                           }
                         },
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minebound:mud"
+                            "Name": "minebound:dirtmaterial"
                           }
                         }
                       ]
@@ -686,7 +686,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "minebound:mud"
+                        "Name": "minebound:dirtmaterial"
                       }
                     }
                   }

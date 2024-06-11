@@ -41,7 +41,7 @@ public class RustyBlockFeature extends OreFeature {
 		return FEATURE;
 	}
 
-	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("minebound:toxic")));
+	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("minebound:deleted_mod_element")));
 
 	public RustyBlockFeature() {
 		super(OreConfiguration.CODEC);

@@ -7,7 +7,7 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "minebound:deleted_mod_element",
+          "biome": "minebound:arctic_biome",
           "parameters": {
             "temperature": 0,
             "humidity": 0,
@@ -387,7 +387,7 @@
             "if_true": {
               "type": "minecraft:biome",
               "biome_is": [
-                "minebound:deleted_mod_element"
+                "minebound:arctic_biome"
               ]
             },
             "then_run": {

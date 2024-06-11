@@ -186,7 +186,6 @@ import net.mcreator.minebound.block.OrnateRoofingBlock;
 import net.mcreator.minebound.block.OrnateFlooringStairsBlock;
 import net.mcreator.minebound.block.OrnateFlooringSlabBlock;
 import net.mcreator.minebound.block.OrnateFlooringBlock;
-import net.mcreator.minebound.block.OrbitalPortalBlock;
 import net.mcreator.minebound.block.ObsidianBlock;
 import net.mcreator.minebound.block.NeonBlockBlock;
 import net.mcreator.minebound.block.MushroomBlockBlock;
@@ -318,7 +317,6 @@ import net.mcreator.minebound.MineboundMod;
 public class MineboundModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, MineboundMod.MODID);
 	public static final RegistryObject<Block> POISON = REGISTRY.register("poison", () -> new PoisonBlock());
-	public static final RegistryObject<Block> ORBITAL_PORTAL = REGISTRY.register("orbital_portal", () -> new OrbitalPortalBlock());
 	public static final RegistryObject<Block> TEST_BUTTON = REGISTRY.register("test_button", () -> new TestButtonBlock());
 	public static final RegistryObject<Block> TEST_DOOR = REGISTRY.register("test_door", () -> new TestDoorBlock());
 	public static final RegistryObject<Block> TEST_PRESSURE_PLATE = REGISTRY.register("test_pressure_plate", () -> new TestPressurePlateBlock());

@@ -7,7 +7,7 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "minebound:emptyspace",
+          "biome": "minebound:empty_space_biome",
           "parameters": {
             "temperature": 0,
             "humidity": 0,
@@ -168,7 +168,7 @@
             "if_true": {
               "type": "minecraft:biome",
               "biome_is": [
-                "minebound:emptyspace"
+                "minebound:empty_space_biome"
               ]
             },
             "then_run": {

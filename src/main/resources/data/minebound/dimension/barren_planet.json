@@ -7,7 +7,7 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "minebound:deleted_mod_element",
+          "biome": "minebound:barren_biome",
           "parameters": {
             "temperature": 0,
             "humidity": 0,
@@ -24,12 +24,12 @@
       "name": "minebound:barren_planet",
       "sea_level": 63,
       "legacy_random_source": false,
-      "disable_mob_generation": false,
-      "noodle_caves_enabled": true,
-      "noise_caves_enabled": true,
-      "aquifers_enabled": true,
-      "deepslate_enabled": true,
-      "ore_veins_enabled": true,
+      "disable_mob_generation": true,
+      "noodle_caves_enabled": false,
+      "noise_caves_enabled": false,
+      "aquifers_enabled": false,
+      "deepslate_enabled": false,
+      "ore_veins_enabled": false,
       "default_block": {
         "Name": "minebound:direstone"
       },
@@ -384,7 +384,7 @@
             "if_true": {
               "type": "minecraft:biome",
               "biome_is": [
-                "minebound:deleted_mod_element"
+                "minebound:barren_biome"
               ]
             },
             "then_run": {

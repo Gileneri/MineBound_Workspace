@@ -32,7 +32,6 @@ import net.mcreator.minebound.item.RefinedRubiumItem;
 import net.mcreator.minebound.item.RefinedFeroziumItem;
 import net.mcreator.minebound.item.RefinedAegisaltItem;
 import net.mcreator.minebound.item.PrismShardItem;
-import net.mcreator.minebound.item.OrbitalItem;
 import net.mcreator.minebound.item.MattermanipulatorbetaItem;
 import net.mcreator.minebound.item.IronOreItem;
 import net.mcreator.minebound.item.IronBarItem;
@@ -201,7 +200,6 @@ public class MineboundModItems {
 	public static final RegistryObject<Item> RACER_MOB_4_SPAWN_EGG = REGISTRY.register("racer_mob_4_spawn_egg", () -> new ForgeSpawnEggItem(MineboundModEntities.RACER_MOB_4, -1, -10066330, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 	public static final RegistryObject<Item> RACER_MOB_5_SPAWN_EGG = REGISTRY.register("racer_mob_5_spawn_egg", () -> new ForgeSpawnEggItem(MineboundModEntities.RACER_MOB_5, -1, -13421773, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 	public static final RegistryObject<Item> RACER_MOB_6_SPAWN_EGG = REGISTRY.register("racer_mob_6_spawn_egg", () -> new ForgeSpawnEggItem(MineboundModEntities.RACER_MOB_6, -1, -16777216, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-	public static final RegistryObject<Item> ORBITAL = REGISTRY.register("orbital", () -> new OrbitalItem());
 	public static final RegistryObject<Item> TEST_BUTTON = block(MineboundModBlocks.TEST_BUTTON, CreativeModeTab.TAB_REDSTONE);
 	public static final RegistryObject<Item> TEST_DOOR = doubleBlock(MineboundModBlocks.TEST_DOOR, CreativeModeTab.TAB_REDSTONE);
 	public static final RegistryObject<Item> TEST_PRESSURE_PLATE = block(MineboundModBlocks.TEST_PRESSURE_PLATE, CreativeModeTab.TAB_REDSTONE);

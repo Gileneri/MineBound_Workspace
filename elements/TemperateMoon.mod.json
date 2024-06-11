@@ -9,7 +9,7 @@
     ],
     "worldGenType": "Normal world gen",
     "mainFillerBlock": {
-      "value": "CUSTOM:Moonrock"
+      "value": "CUSTOM:MoonDust"
     },
     "fluidBlock": {
       "value": "CUSTOM:LiquidErchiusFuel"
@@ -22,9 +22,9 @@
     "hasFog": false,
     "isDark": true,
     "doesWaterVaporize": false,
-    "sleepResult": "ALLOW",
+    "sleepResult": "DENY",
     "hasSkyLight": true,
-    "imitateOverworldBehaviour": true,
+    "imitateOverworldBehaviour": false,
     "onPlayerEntersDimension": {
       "name": "WhenEnteringDimension"
     },
