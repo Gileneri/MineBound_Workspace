@@ -13,7 +13,6 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.sounds.SoundEvent;
@@ -32,7 +31,7 @@ public class AsteroidMagmarockBlock extends Block {
 		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.NETHER)
 				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:footstep_stone3")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_stone3")),
 						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_stone3")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
-				.strength(20.8f, 10f).requiresCorrectToolForDrops());
+				.strength(20.8f, 10f));
 	}
 
 	@Override
@@ -64,13 +63,6 @@ public class AsteroidMagmarockBlock extends Block {
 	@Override
 	public boolean canSustainPlant(BlockState state, BlockGetter world, BlockPos pos, Direction direction, IPlantable plantable) {
 		return true;
-	}
-
-	@Override
-	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem() instanceof PickaxeItem tieredItem)
-			return tieredItem.getTier().getLevel() >= 0;
-		return false;
 	}
 
 	@Override

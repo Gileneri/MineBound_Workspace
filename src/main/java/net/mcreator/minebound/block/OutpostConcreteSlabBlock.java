@@ -12,13 +12,10 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SlabBlock;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
-import net.minecraft.core.BlockPos;
 
 import java.util.List;
 import java.util.Collections;
@@ -28,7 +25,7 @@ public class OutpostConcreteSlabBlock extends SlabBlock {
 		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_GRAY)
 				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:footstep_composite")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_composite")),
 						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_composite")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
-				.strength(20f).requiresCorrectToolForDrops().dynamicShape());
+				.strength(20f).dynamicShape());
 	}
 
 	@Override
@@ -40,13 +37,6 @@ public class OutpostConcreteSlabBlock extends SlabBlock {
 		list.add(Component.literal("a"));
 		list.add(Component.literal("a"));
 		list.add(Component.literal("a"));
-	}
-
-	@Override
-	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem() instanceof PickaxeItem tieredItem)
-			return tieredItem.getTier().getLevel() >= 2;
-		return false;
 	}
 
 	@Override

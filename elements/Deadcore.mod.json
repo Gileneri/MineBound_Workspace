@@ -52,7 +52,7 @@
     "customDrop": {
       "value": ""
     },
-    "dropAmount": 1,
+    "dropAmount": 0,
     "useLootTableForDrops": false,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
@@ -103,8 +103,8 @@
       "value": "CUSTOM:footspet_stone"
     },
     "luminance": 0,
-    "unbreakable": true,
-    "breakHarvestLevel": 1,
+    "unbreakable": false,
+    "breakHarvestLevel": 0,
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",

@@ -12,6 +12,8 @@ public class MineboundModTabs {
 	public static CreativeModeTab TAB_CRAFTABLEBLOCKS;
 	public static CreativeModeTab TAB_VILLAGEAND_DUNGEON_BLOCKS;
 	public static CreativeModeTab TAB_ITEMS_AND_ORES;
+	public static CreativeModeTab TAB_THEMEDBLOCKS;
+	public static CreativeModeTab TAB_MB_FURNITURE;
 
 	public static void load() {
 		TAB_NATURALTILES = new CreativeModeTab("tabnaturaltiles") {
@@ -58,5 +60,27 @@ public class MineboundModTabs {
 				return false;
 			}
 		};
+		TAB_THEMEDBLOCKS = new CreativeModeTab("tabthemedblocks") {
+			@Override
+			public ItemStack makeIcon() {
+				return new ItemStack(MineboundModBlocks.GRAYPLATEDMETAL.get());
+			}
+
+			@Override
+			public boolean hasSearchBar() {
+				return false;
+			}
+		};
+		TAB_MB_FURNITURE = new CreativeModeTab("tabmb_furniture") {
+			@Override
+			public ItemStack makeIcon() {
+				return new ItemStack(MineboundModBlocks.CHAINLINKFENCE.get());
+			}
+
+			@Override
+			public boolean hasSearchBar() {
+				return true;
+			}
+		}.setBackgroundSuffix("item_search.png");
 	}
 }

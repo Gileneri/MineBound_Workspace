@@ -4,13 +4,13 @@
   "definition": {
     "name": "Earth",
     "groundBlock": {
-      "value": "CUSTOM:Cloud"
+      "value": "CUSTOM:Theblock"
     },
     "undergroundBlock": {
-      "value": "CUSTOM:Cloud"
+      "value": "CUSTOM:Theblock"
     },
     "underwaterBlock": {
-      "value": ""
+      "value": "CUSTOM:Theblock"
     },
     "grassColor": {
       "value": -12278228,

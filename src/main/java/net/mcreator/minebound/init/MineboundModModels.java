@@ -20,11 +20,11 @@ import net.mcreator.minebound.client.model.Modelmb_blockIndicatorEntity;
 public class MineboundModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
+		event.registerLayerDefinition(ModelmechTest_armLeft.LAYER_LOCATION, ModelmechTest_armLeft::createBodyLayer);
 		event.registerLayerDefinition(ModelmechTest_body.LAYER_LOCATION, ModelmechTest_body::createBodyLayer);
-		event.registerLayerDefinition(Modelmb_blockIndicatorEntity.LAYER_LOCATION, Modelmb_blockIndicatorEntity::createBodyLayer);
+		event.registerLayerDefinition(ModelmechTest_armRight.LAYER_LOCATION, ModelmechTest_armRight::createBodyLayer);
 		event.registerLayerDefinition(ModelmechTest_legLeft.LAYER_LOCATION, ModelmechTest_legLeft::createBodyLayer);
 		event.registerLayerDefinition(ModelmechTest_legRight.LAYER_LOCATION, ModelmechTest_legRight::createBodyLayer);
-		event.registerLayerDefinition(ModelmechTest_armLeft.LAYER_LOCATION, ModelmechTest_armLeft::createBodyLayer);
-		event.registerLayerDefinition(ModelmechTest_armRight.LAYER_LOCATION, ModelmechTest_armRight::createBodyLayer);
+		event.registerLayerDefinition(Modelmb_blockIndicatorEntity.LAYER_LOCATION, Modelmb_blockIndicatorEntity::createBodyLayer);
 	}
 }

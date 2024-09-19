@@ -50,13 +50,13 @@
     "creativeTab": {
       "value": "CUSTOM:Naturaltiles"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "hoe",
     "customDrop": {
       "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": true,
+    "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": true,
     "canRedstoneConnect": false,

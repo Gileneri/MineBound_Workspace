@@ -100,7 +100,7 @@
       "deepslate_enabled": false,
       "ore_veins_enabled": false,
       "default_block": {
-        "Name": "minebound:smoothcobblestone"
+        "Name": "minebound:thicksnow"
       },
       "default_fluid": {
         "Name": "minecraft:water",

@@ -4,5 +4,6 @@
     "all": "minebound:blocks/white_block_texture",
     "particle": "minebound:blocks/white_block_texture"
   },
-  "render_type": "solid"
+  "render_type": "solid",
+  "ambientocclusion": false
 }

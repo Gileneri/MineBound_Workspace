@@ -3,11 +3,11 @@
   "_type": "block",
   "definition": {
     "texture": "junk_tech1",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
+    "textureTop": "junktech0",
+    "textureLeft": "junktech0",
+    "textureFront": "junktech0",
+    "textureRight": "junktech0",
+    "textureBack": "junktech0",
     "renderType": 11,
     "customModelName": "Single texture",
     "rotationMode": 0,
@@ -33,16 +33,10 @@
         "subtract": false
       }
     ],
-    "name": "Junk Tech",
-    "specialInfo": [
-      "a",
-      "a",
-      "a",
-      "a",
-      "a"
-    ],
-    "hardness": 8.0,
-    "resistance": 8.0,
+    "name": "Junk tech ",
+    "specialInfo": [],
+    "hardness": 1.0,
+    "resistance": 6.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -54,9 +48,9 @@
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": true,
+    "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
-    "plantsGrowOn": true,
+    "plantsGrowOn": false,
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
@@ -69,7 +63,7 @@
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
-    "colorOnMap": "IRON",
+    "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""
     },
@@ -85,7 +79,7 @@
     "isNotColidable": false,
     "isCustomSoundType": true,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "LANTERN"
     },
     "breakSound": {
       "value": "CUSTOM:footstep_lightmetal"
@@ -104,7 +98,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "breakHarvestLevel": 0,
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
@@ -127,9 +121,9 @@
     "restrictionBiomes": [],
     "blocksToReplace": [],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "frequencyPerChunks": 5,
+    "frequencyOnChunk": 15,
+    "minGenerateHeight": 20,
+    "maxGenerateHeight": 200
   }
 }

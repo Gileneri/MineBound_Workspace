@@ -15,7 +15,7 @@
     ],
     "worldGenType": "Normal world gen",
     "mainFillerBlock": {
-      "value": "CUSTOM:Smoothcobblestone"
+      "value": "CUSTOM:Thicksnow"
     },
     "fluidBlock": {
       "value": "Blocks.FLOWING_WATER"

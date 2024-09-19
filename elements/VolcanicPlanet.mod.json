@@ -8,14 +8,11 @@
       },
       {
         "value": "CUSTOM:GeodeMiniBiome"
-      },
-      {
-        "value": "CUSTOM:VolcanicDecayedBiome"
       }
     ],
     "worldGenType": "Normal world gen",
     "mainFillerBlock": {
-      "value": "CUSTOM:Smoothcobblestone"
+      "value": "CUSTOM:Magmarock"
     },
     "fluidBlock": {
       "value": "CUSTOM:Lava"

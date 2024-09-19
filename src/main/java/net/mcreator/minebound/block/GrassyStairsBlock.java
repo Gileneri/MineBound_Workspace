@@ -13,9 +13,7 @@ import net.minecraft.world.level.block.StairBlock;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
@@ -31,7 +29,7 @@ public class GrassyStairsBlock extends StairBlock {
 				BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_GREEN)
 						.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:footstep_stone2")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_stone2")),
 								() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_stone2")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
-						.strength(12f).requiresCorrectToolForDrops().dynamicShape());
+						.strength(12f).dynamicShape());
 	}
 
 	@Override
@@ -57,13 +55,6 @@ public class GrassyStairsBlock extends StairBlock {
 	@Override
 	public boolean canSustainPlant(BlockState state, BlockGetter world, BlockPos pos, Direction direction, IPlantable plantable) {
 		return true;
-	}
-
-	@Override
-	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem() instanceof PickaxeItem tieredItem)
-			return tieredItem.getTier().getLevel() >= 1;
-		return false;
 	}
 
 	@Override

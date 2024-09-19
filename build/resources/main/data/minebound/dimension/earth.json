@@ -31,10 +31,7 @@
       "deepslate_enabled": false,
       "ore_veins_enabled": false,
       "default_block": {
-        "Name": "minebound:cloud",
-        "Properties": {
-          "waterlogged": "false"
-        }
+        "Name": "minebound:theblock"
       },
       "default_fluid": {
         "Name": "minecraft:air"
@@ -421,20 +418,14 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minebound:cloud",
-                              "Properties": {
-                                "waterlogged": "false"
-                              }
+                              "Name": "minebound:theblock"
                             }
                           }
                         },
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minebound:cloud",
-                            "Properties": {
-                              "waterlogged": "false"
-                            }
+                            "Name": "minebound:theblock"
                           }
                         }
                       ]
@@ -452,10 +443,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "minebound:cloud",
-                        "Properties": {
-                          "waterlogged": "false"
-                        }
+                        "Name": "minebound:theblock"
                       }
                     }
                   }

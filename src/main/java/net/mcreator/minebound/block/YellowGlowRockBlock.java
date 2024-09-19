@@ -14,9 +14,7 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
@@ -31,7 +29,7 @@ public class YellowGlowRockBlock extends Block {
 		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_YELLOW)
 				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:footstep_stone3")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_stone3")),
 						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_stone3")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
-				.strength(1f).lightLevel(s -> 3).requiresCorrectToolForDrops());
+				.strength(1f).lightLevel(s -> 3));
 	}
 
 	@Override
@@ -52,13 +50,6 @@ public class YellowGlowRockBlock extends Block {
 	@Override
 	public boolean canSustainPlant(BlockState state, BlockGetter world, BlockPos pos, Direction direction, IPlantable plantable) {
 		return true;
-	}
-
-	@Override
-	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem() instanceof PickaxeItem tieredItem)
-			return tieredItem.getTier().getLevel() >= 1;
-		return false;
 	}
 
 	@Override

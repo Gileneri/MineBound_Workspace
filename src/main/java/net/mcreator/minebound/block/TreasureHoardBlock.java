@@ -13,9 +13,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.ShovelItem;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
@@ -32,7 +30,7 @@ public class TreasureHoardBlock extends FallingBlock {
 		super(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.GOLD)
 				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:footstep_treasure")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_treasure")),
 						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_treasure")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
-				.strength(2f).requiresCorrectToolForDrops());
+				.strength(2f));
 	}
 
 	@Override
@@ -48,13 +46,6 @@ public class TreasureHoardBlock extends FallingBlock {
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 15;
-	}
-
-	@Override
-	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem() instanceof ShovelItem tieredItem)
-			return tieredItem.getTier().getLevel() >= 1;
-		return false;
 	}
 
 	@Override

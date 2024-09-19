@@ -9,7 +9,7 @@
     ],
     "worldGenType": "Normal world gen",
     "mainFillerBlock": {
-      "value": "CUSTOM:Moonrock"
+      "value": "CUSTOM:MoonDust"
     },
     "fluidBlock": {
       "value": "CUSTOM:LiquidErchiusFuel"

@@ -13,9 +13,7 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
@@ -30,7 +28,7 @@ public class MeteoriterockBlock extends Block {
 		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_BROWN)
 				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:footstep_rock")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_rock")),
 						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_rock")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
-				.strength(12f).requiresCorrectToolForDrops());
+				.strength(12f));
 	}
 
 	@Override
@@ -57,13 +55,6 @@ public class MeteoriterockBlock extends Block {
 	@Override
 	public PushReaction getPistonPushReaction(BlockState state) {
 		return PushReaction.BLOCK;
-	}
-
-	@Override
-	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem() instanceof PickaxeItem tieredItem)
-			return tieredItem.getTier().getLevel() >= 1;
-		return false;
 	}
 
 	@Override

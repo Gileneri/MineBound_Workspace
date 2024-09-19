@@ -13,13 +13,10 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SlabBlock;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
-import net.minecraft.core.BlockPos;
 
 import java.util.List;
 import java.util.Collections;
@@ -29,7 +26,7 @@ public class AncientBrickSlabBlock extends SlabBlock {
 		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.DEEPSLATE)
 				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:footspet_stone")), () -> new SoundEvent(new ResourceLocation("minebound:footspet_stone")),
 						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:footspet_stone")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
-				.strength(-1, 3600000).requiresCorrectToolForDrops().dynamicShape());
+				.strength(-1, 3600000).dynamicShape());
 	}
 
 	@Override
@@ -45,13 +42,6 @@ public class AncientBrickSlabBlock extends SlabBlock {
 	@Override
 	public PushReaction getPistonPushReaction(BlockState state) {
 		return PushReaction.BLOCK;
-	}
-
-	@Override
-	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem() instanceof PickaxeItem tieredItem)
-			return tieredItem.getTier().getLevel() >= 1;
-		return false;
 	}
 
 	@Override

@@ -40,7 +40,6 @@
     "minecraft:void_air",
     "minebound:raw_sewage",
     "minebound:bricks",
-    "minebound:smoothcobblestone",
     "minebound:geodestone",
     "minebound:smoothice",
     "minebound:copper_roofing",
@@ -48,7 +47,6 @@
     "minebound:thicksnow",
     "minebound:drydirt",
     "minebound:reed_block",
-    "minebound:direstone",
     "minebound:alienrock",
     "minebound:fleshchunk",
     "minebound:frozendirt",
@@ -61,7 +59,7 @@
     "minebound:mushroom_block",
     "minebound:petal_blocks",
     "minebound:pile_of_eyes",
-    "minebound:cloud",
+    "minebound:theblock",
     "minebound:meteoriterock",
     "minebound:tentacle_cluster"
   ]

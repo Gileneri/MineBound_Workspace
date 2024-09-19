@@ -1,9 +1,10 @@
 {
   "replace": false,
   "values": [
-    "minebound:brains",
-    "minebound:plant_matter",
+    "minebound:fleshchunk",
+    "minebound:fleshpile",
     "minebound:striped_wood",
+    "minebound:tentacle_cluster",
     "minebound:vine_block",
     "minebound:wooden_log",
     "minebound:cabinroofing",
@@ -28,7 +29,6 @@
     "minebound:ornate_wall_panel",
     "minebound:ornatewood_block",
     "minebound:thick_ornate_wood",
-    "minebound:pile_of_books",
     "minebound:shoji_screen_block",
     "minebound:shoji_screen_stairs",
     "minebound:shoji_screen_slab",
@@ -42,12 +42,17 @@
     "minebound:wood_panelling",
     "minebound:wooden_bridge_block",
     "minebound:wooden_bridge_slab",
+    "minebound:plant_block",
+    "minebound:plant_block_slab",
     "minebound:window_lattice",
     "minebound:wooden_blinds",
     "minebound:wooden_window",
     "minebound:wooden_fence",
     "minebound:wooden_fence_corner",
     "minebound:wooden_fence_cross",
-    "minebound:wooden_fence_cross_2"
+    "minebound:wooden_fence_cross_2",
+    "minebound:dustywood",
+    "minebound:oldglass",
+    "minebound:rustedchainlinkfence"
   ]
 }

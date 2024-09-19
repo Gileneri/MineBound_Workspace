@@ -15,9 +15,6 @@
         "value": "CUSTOM:Jellyblob"
       },
       {
-        "value": "CUSTOM:Junkpile"
-      },
-      {
         "value": "CUSTOM:Loosesilt"
       },
       {
@@ -43,6 +40,9 @@
       },
       {
         "value": "CUSTOM:Waste"
+      },
+      {
+        "value": "CUSTOM:Junkpile"
       }
     ],
     "functions": [],

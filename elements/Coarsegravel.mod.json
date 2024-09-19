@@ -43,18 +43,18 @@
     ],
     "hardness": 1.0,
     "resistance": 1.0,
-    "hasGravity": false,
+    "hasGravity": true,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:Naturaltiles"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "shovel",
     "customDrop": {
       "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": true,
+    "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": true,
     "canRedstoneConnect": false,

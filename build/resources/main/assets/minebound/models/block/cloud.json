@@ -4,5 +4,5 @@
     "all": "minebound:blocks/cloud1",
     "particle": "minebound:blocks/cloud1"
   },
-  "render_type": "translucent"
+  "render_type": "solid"
 }
