@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "minebound:metaliccolumn",
+    "minebound:rustymetalplaques",
+    "minebound:charredmetalplating",
+    "minebound:rustedbars",
+    "minebound:dustycircuit",
+    "minebound:metalplaqueslab",
+    "minebound:erodedmetalpanels",
+    "minebound:sleekdarkpanel",
+    "minebound:rustyboltedplates",
+    "minebound:metalplaquestairs",
+    "minebound:rustywall",
+    "minebound:metalplaques",
+    "minebound:grayplatedmetal",
+    "minebound:charredmetalplates"
+  ]
+}

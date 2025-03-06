@@ -3,9 +3,6 @@ package net.mcreator.minebound.block;
 
 import net.minecraftforge.common.util.ForgeSoundType;
 
-import net.minecraft.world.phys.shapes.VoxelShape;
-import net.minecraft.world.phys.shapes.Shapes;
-import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.MaterialColor;
 import net.minecraft.world.level.material.Material;
@@ -28,7 +25,7 @@ public class MetalBarsBlock extends Block {
 		super(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.METAL)
 				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("minebound:footstep_lightmetal")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_lightmetal")),
 						() -> new SoundEvent(new ResourceLocation("minebound:inventory_putdown1")), () -> new SoundEvent(new ResourceLocation("minebound:footstep_lightmetal")), () -> new SoundEvent(new ResourceLocation("minebound:silence"))))
-				.strength(8f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+				.strength(8f));
 	}
 
 	@Override
@@ -44,11 +41,6 @@ public class MetalBarsBlock extends Block {
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 2;
-	}
-
-	@Override
-	public VoxelShape getVisualShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		return Shapes.empty();
 	}
 
 	@Override

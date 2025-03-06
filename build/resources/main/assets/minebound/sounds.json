@@ -89,16 +89,6 @@
       }
     ]
   },
-  "footspet_stone": {
-    "category": "block",
-    "subtitle": "subtitles.footspet_stone",
-    "sounds": [
-      {
-        "name": "minebound:footstep_stone",
-        "stream": false
-      }
-    ]
-  },
   "inventory_putdown1": {
     "category": "block",
     "subtitle": "subtitles.inventory_putdown1",
@@ -355,6 +345,16 @@
     "sounds": [
       {
         "name": "minebound:starving2",
+        "stream": false
+      }
+    ]
+  },
+  "footspet_stone": {
+    "category": "block",
+    "subtitle": "subtitles.footspet_stone",
+    "sounds": [
+      {
+        "name": "minebound:footstep_stone",
         "stream": false
       }
     ]

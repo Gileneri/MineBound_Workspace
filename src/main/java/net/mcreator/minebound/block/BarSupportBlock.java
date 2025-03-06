@@ -4,6 +4,7 @@ package net.mcreator.minebound.block;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.shapes.BooleanOp;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.Fluids;
@@ -50,6 +51,15 @@ public class BarSupportBlock extends Block implements SimpleWaterloggedBlock {
 	@Override
 	public VoxelShape getVisualShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return Shapes.empty();
+	}
+
+	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return switch (state.getValue(AXIS)) {
+			case X -> Shapes.join(Shapes.or(box(0, 0, 0, 16, 3, 3), box(0, 13, 0, 16, 16, 3), box(0, 0, 13, 16, 3, 16), box(0, 13, 13, 16, 16, 16)), box(0, 1, 1, 16, 15, 15), BooleanOp.ONLY_FIRST);
+			case Y -> Shapes.join(Shapes.or(box(0, 0, 0, 3, 16, 3), box(0, 0, 13, 3, 16, 16), box(13, 0, 0, 16, 16, 3), box(13, 0, 13, 16, 16, 16)), box(1, 0, 1, 15, 16, 15), BooleanOp.ONLY_FIRST);
+			case Z -> Shapes.join(Shapes.or(box(0, 0, 0, 3, 3, 16), box(0, 13, 0, 3, 16, 16), box(13, 0, 0, 16, 3, 16), box(13, 13, 0, 16, 16, 16)), box(1, 1, 0, 15, 15, 16), BooleanOp.ONLY_FIRST);
+		};
 	}
 
 	@Override

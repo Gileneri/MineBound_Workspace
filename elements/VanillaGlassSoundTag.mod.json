@@ -1,0 +1,27 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Darkglass"
+      },
+      {
+        "value": "CUSTOM:Darkglasspane"
+      },
+      {
+        "value": "CUSTOM:Oldglass"
+      },
+      {
+        "value": "CUSTOM:Oldglasspane"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "vanilla_glass_sound_tag",
+    "namespace": "mod"
+  }
+}

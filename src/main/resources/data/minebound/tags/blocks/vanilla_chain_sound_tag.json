@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "minebound:chainlinkfence",
+    "minebound:rustedchainlinkfence"
+  ]
+}

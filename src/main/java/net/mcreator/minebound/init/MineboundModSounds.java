@@ -24,7 +24,6 @@ public class MineboundModSounds {
 	public static final RegistryObject<SoundEvent> FOOTSTEP_CLAY1 = REGISTRY.register("footstep_clay1", () -> new SoundEvent(new ResourceLocation("minebound", "footstep_clay1")));
 	public static final RegistryObject<SoundEvent> SILENCE = REGISTRY.register("silence", () -> new SoundEvent(new ResourceLocation("minebound", "silence")));
 	public static final RegistryObject<SoundEvent> FOOTSTEP_DIRT = REGISTRY.register("footstep_dirt", () -> new SoundEvent(new ResourceLocation("minebound", "footstep_dirt")));
-	public static final RegistryObject<SoundEvent> FOOTSPET_STONE = REGISTRY.register("footspet_stone", () -> new SoundEvent(new ResourceLocation("minebound", "footspet_stone")));
 	public static final RegistryObject<SoundEvent> INVENTORY_PUTDOWN1 = REGISTRY.register("inventory_putdown1", () -> new SoundEvent(new ResourceLocation("minebound", "inventory_putdown1")));
 	public static final RegistryObject<SoundEvent> FOOTSTEP_DRY_DIRT = REGISTRY.register("footstep_dry_dirt", () -> new SoundEvent(new ResourceLocation("minebound", "footstep_dry_dirt")));
 	public static final RegistryObject<SoundEvent> FOOTSTEP_SAND = REGISTRY.register("footstep_sand", () -> new SoundEvent(new ResourceLocation("minebound", "footstep_sand")));
@@ -51,4 +50,5 @@ public class MineboundModSounds {
 	public static final RegistryObject<SoundEvent> ENERGY_FULL1 = REGISTRY.register("energy_full1", () -> new SoundEvent(new ResourceLocation("minebound", "energy_full1")));
 	public static final RegistryObject<SoundEvent> STARVING1 = REGISTRY.register("starving1", () -> new SoundEvent(new ResourceLocation("minebound", "starving1")));
 	public static final RegistryObject<SoundEvent> STARVING2 = REGISTRY.register("starving2", () -> new SoundEvent(new ResourceLocation("minebound", "starving2")));
+	public static final RegistryObject<SoundEvent> FOOTSPET_STONE = REGISTRY.register("footspet_stone", () -> new SoundEvent(new ResourceLocation("minebound", "footspet_stone")));
 }

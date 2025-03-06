@@ -1,0 +1,21 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Scorchedhazardtape"
+      },
+      {
+        "value": "CUSTOM:Scorchedtapumme"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "vanilla_scaffolding_sound_tag",
+    "namespace": "mod"
+  }
+}

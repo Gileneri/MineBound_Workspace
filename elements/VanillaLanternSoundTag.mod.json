@@ -1,0 +1,45 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Dustygrate"
+      },
+      {
+        "value": "CUSTOM:Makeshiftmetalsheets"
+      },
+      {
+        "value": "CUSTOM:Metalsheets"
+      },
+      {
+        "value": "CUSTOM:Rivetlessrustypanel"
+      },
+      {
+        "value": "CUSTOM:Rivetrustyplating"
+      },
+      {
+        "value": "CUSTOM:Rustedplates"
+      },
+      {
+        "value": "CUSTOM:Rustygrate"
+      },
+      {
+        "value": "CUSTOM:Rustyscafolding"
+      },
+      {
+        "value": "CUSTOM:Scorchedcargoplating"
+      },
+      {
+        "value": "CUSTOM:Scorchedplating"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "vanilla_lantern_sound_tag",
+    "namespace": "mod"
+  }
+}

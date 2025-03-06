@@ -40,24 +40,24 @@
     "luminance": 0,
     "unbreakable": false,
     "isSolid": false,
-    "isCustomSoundType": false,
+    "isCustomSoundType": true,
     "soundOnStep": {
       "value": "CHAIN"
     },
     "breakSound": {
-      "value": ""
+      "value": "CUSTOM:silence"
     },
     "stepSound": {
-      "value": ""
+      "value": "CUSTOM:silence"
     },
     "placeSound": {
-      "value": ""
+      "value": "CUSTOM:inventory_putdown1"
     },
     "hitSound": {
-      "value": ""
+      "value": "CUSTOM:silence"
     },
     "fallSound": {
-      "value": ""
+      "value": "CUSTOM:silence"
     },
     "useLootTableForDrops": false,
     "customDrop": {
@@ -76,8 +76,8 @@
     "aiPathNodeType": "DEFAULT",
     "flammability": 0,
     "fireSpreadSpeed": 60,
-    "jumpFactor": 1.0,
-    "speedFactor": 1.0,
+    "jumpFactor": 0.5,
+    "speedFactor": 0.4,
     "canBePlacedOn": [],
     "isBonemealable": false,
     "frequencyOnChunks": 5,

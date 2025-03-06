@@ -1,0 +1,57 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Charredmetalplates"
+      },
+      {
+        "value": "CUSTOM:Charredmetalplating"
+      },
+      {
+        "value": "CUSTOM:Dustycircuit"
+      },
+      {
+        "value": "CUSTOM:Grayplatedmetal"
+      },
+      {
+        "value": "CUSTOM:Metaliccolumn"
+      },
+      {
+        "value": "CUSTOM:Metalplaques"
+      },
+      {
+        "value": "CUSTOM:Metalplaqueslab"
+      },
+      {
+        "value": "CUSTOM:Metalplaquestairs"
+      },
+      {
+        "value": "CUSTOM:Rustedbars"
+      },
+      {
+        "value": "CUSTOM:Rustyboltedplates"
+      },
+      {
+        "value": "CUSTOM:Rustymetalplaques"
+      },
+      {
+        "value": "CUSTOM:Rustywall"
+      },
+      {
+        "value": "CUSTOM:Sleekdarkpanel"
+      },
+      {
+        "value": "CUSTOM:Erodedmetalpanels"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "vanilla_metal_sound_tag",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minebound:dustygrate",
+    "minebound:scorchedcargoplating",
+    "minebound:rustyscafolding",
+    "minebound:metalsheets",
+    "minebound:rustygrate",
+    "minebound:scorchedplating",
+    "minebound:rivetrustyplating",
+    "minebound:rivetlessrustypanel",
+    "minebound:rustedplates",
+    "minebound:makeshiftmetalsheets"
+  ]
+}
